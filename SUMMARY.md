@@ -11,7 +11,9 @@
 ## Developers
 
 * [Contract Addresses](developers/contract-addresses.md)
-* [Integration Points](developers/integration-points.md)
+* [Ribbon Architecture](developers/ribbon-architecture.md)
+* [Integrating New Protocols](developers/integrating-new-protocols.md)
+* [Creating New Products](developers/creating-new-products.md)
 
 ## Additional Resources
 
