@@ -1,6 +1,7 @@
 # Table of contents
 
 * [Introduction to Ribbon](README.md)
+* [FAQ](faq.md)
 
 ## Products
 

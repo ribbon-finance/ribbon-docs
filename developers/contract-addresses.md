@@ -12,11 +12,11 @@ These are the contract addresses that are deployed to Ethereum mainnet.
 
 ## Instruments
 
-Instrument contracts are contracts that have a specific expiry and underlying asset.
+Instrument contracts are contracts that have a specific expiry and underlying asset. These contracts are deployed as time goes by.
 
-| Series | Contract | Address |
-| :--- | :--- | :--- |
-| Series V | ETHVOL-26MAR2021 | [0xD13D279073DBDdeD368D822FAb8a59604f86CA51](https://etherscan.io/address/0xD13D279073DBDdeD368D822FAb8a59604f86CA51) |
-| Series V | ETHVOL-12MAR2021 | [0x390Df0394ef2930Eae1E3a610202D644fc21127c](https://etherscan.io/address/0x390Df0394ef2930Eae1E3a610202D644fc21127c) |
-| Series V | ETHVOL-26FEB2021 | [0xce797549a7025561aE60569F68419f016e97D8c5](https://etherscan.io/address/0xce797549a7025561aE60569F68419f016e97D8c5) |
+| Contract | Address |
+| :--- | :--- |
+| ETHVOL-26MAR2021 \(Series V\) | [0xD13D279073DBDdeD368D822FAb8a59604f86CA51](https://etherscan.io/address/0xD13D279073DBDdeD368D822FAb8a59604f86CA51) |
+| ETHVOL-12MAR2021 \(Series V\) | [0x390Df0394ef2930Eae1E3a610202D644fc21127c](https://etherscan.io/address/0x390Df0394ef2930Eae1E3a610202D644fc21127c) |
+| ETHVOL-26FEB2021 \(Series V\) | [0xce797549a7025561aE60569F68419f016e97D8c5](https://etherscan.io/address/0xce797549a7025561aE60569F68419f016e97D8c5) |
 
