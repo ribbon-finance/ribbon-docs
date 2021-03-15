@@ -1,4 +1,4 @@
-# Overview
+# Ribbon Architecture
 
 ## Introduction
 
@@ -17,7 +17,13 @@ Ribbon Finance is a protocol for designing structured products on-chain. Our sma
 
 ## Ribbon Factory
 
+Ribbon uses the Proxy Factory pattern to deploy new instruments in the protocol. The RibbonFactory has the function `newInstrument` which deploys a new instrument and keeps the record of newly deployed instrument's address.
 
+The factory is also the swiss-army knife of Ribbon, and holds a few different information:
+
+* Instrument addresses
+* Adapter addresses
+* Gas subsidies from the Ribbon team
 
 ## Instrument Contracts
 
@@ -25,7 +31,7 @@ Instrument contracts are financial contracts that have an expiry date. Using the
 
 ![Flow chart for an Instrument contract](../../.gitbook/assets/instrument-flowchart%20%281%29.png)
 
-The ProtocolAdapter contracts are called with [delegatecalls](https://medium.com/coinmonks/delegatecall-calling-another-contract-function-in-solidity-b579f804178c). This means that each Instrument contract is calling the function of the Protocol Adapter, but using its own storage. This means that when an Instrument calls `HegicAdapter.purchase`, the `msg.sender` would be the Instrument, not the HegicAdapter itself.
+The ProtocolAdapter contracts are called with [delegatecalls](https://medium.com/coinmonks/delegatecall-calling-another-contract-function-in-solidity-b579f804178c). This means that each Instrument contract is calling the function of the Protocol Adapter, but using its own storage. This means that when an Instrument calls `HegicAdapter.purchase`, the `msg.sender` in the Hegic function call would be the Instrument, not the HegicAdapter itself.
 
 This solves a few key problems:
 
