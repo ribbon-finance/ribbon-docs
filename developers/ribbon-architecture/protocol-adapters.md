@@ -24,7 +24,7 @@ Boolean flag to indicate whether to use option IDs or not. Fungible protocols no
 
 #### `purchaseMethod() → enum ProtocolAdapterTypes.PurchaseMethod` \(external\)
 
-Returns the purchase method used to purchase options
+Returns the purchase method used to purchase options.
 
 #### `optionsExist(struct ProtocolAdapterTypes.OptionTerms optionTerms) → bool` \(external\)
 
