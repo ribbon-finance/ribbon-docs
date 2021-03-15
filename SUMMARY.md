@@ -12,6 +12,7 @@
 
 * [Contract Addresses](developers/contract-addresses.md)
 * [Ribbon Architecture](developers/ribbon-architecture/README.md)
+  * [Untitled](developers/ribbon-architecture/untitled.md)
   * [Ribbon Factory](developers/ribbon-architecture/ribbon-factory.md)
   * [Protocol Adapters](developers/ribbon-architecture/protocol-adapters.md)
 * [Integrating New Protocols](developers/integrating-new-protocols.md)
