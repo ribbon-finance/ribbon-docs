@@ -13,8 +13,6 @@
 * [Contract Addresses](developers/contract-addresses.md)
 * [Ribbon Architecture](developers/untitled/README.md)
   * [Protocol Adapters](developers/untitled/protocol-adapters.md)
-* [Integrating New Protocols](developers/integrating-new-protocols.md)
-* [Creating New Products](developers/creating-new-products.md)
 
 ## Additional Resources
 
