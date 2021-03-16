@@ -4,7 +4,7 @@
 
 Ribbon Finance is a protocol for designing structured products on-chain. Our smart contract architecture is designed to enable developers to create the financial tools of the future. The architecture has the following goals:
 
-* Rapid and secure development of new financial instruments
+* Rapid and secure development of new structured products
 * Simple integration of new third-party protocols
 * Easy onboarding of new contributors who can work on independent modules
 
@@ -31,12 +31,12 @@ Instrument contracts are financial contracts that have an expiry date. Using the
 
 ![Flow chart for an Instrument contract](../../.gitbook/assets/instrument-flowchart%20%281%29.png)
 
-The ProtocolAdapter contracts are called with [delegatecalls](https://medium.com/coinmonks/delegatecall-calling-another-contract-function-in-solidity-b579f804178c). This means that each Instrument contract is calling the function of the Protocol Adapter, but using its own storage. This means that when an Instrument calls `HegicAdapter.purchase`, the `msg.sender` in the Hegic function call would be the Instrument, not the HegicAdapter itself.
+The ProtocolAdapter contracts are called with [delegatecalls](https://medium.com/coinmonks/delegatecall-calling-another-contract-function-in-solidity-b579f804178c). This means that each Instrument contract is calling the function of the Protocol Adapter, but using its own storage. When an Instrument calls `HegicAdapter.purchase`, the `msg.sender` in the Hegic function call would be the Instrument, not the HegicAdapter itself.
 
 This solves a few key problems:
 
 * State is stored on Instrument contracts, not the Adapter contracts. For example, this means that we do not hold ALL of Ribbon's Hegic positions on the HegicAdapter contract.
 * Adapter contracts are designed as pass-throughs, and do not hold any state. This is better from a security perspective.
 
-## Vaults
+
 

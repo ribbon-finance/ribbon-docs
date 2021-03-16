@@ -12,6 +12,8 @@ The problem is that all the options protocols are _slightly_ different, and opti
 
 In order to have a unified interface across different Protocol Adapters, we have `IProtocolAdapter` . Below is the API reference for IProtocolAdapter.
 
+If you are a protocol developer for an options/derivatives protocol, and want an Adapter developed, reach out to us on Discord!
+
 ## IProtocolAdapter
 
 #### `protocolName() → string` \(external\)

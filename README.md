@@ -1,6 +1,6 @@
 # Introduction to Ribbon
 
-Ribbon Finance is a new protocol that creates crypto structured products for DeFi. It combine options, futures, and fixed income to improve a portfolio's risk-return profile.
+Ribbon Finance is a new protocol that helps users access crypto structured products for DeFi. It combine options, futures, and fixed income to improve a portfolio's risk-return profile.
 
 Here you can find the product descriptions and outgoing links to the different communication channels if you want to contribute.
 
@@ -22,8 +22,6 @@ Series Y is a series of products focused on generating yields with short volatil
 Theta Vault, which is a yield-focused strategy on ETH and WBTC. The first Theta Vault will run a [covered call](https://www.investopedia.com/terms/c/coveredcall.asp) strategy, which earns yield on a weekly basis through writing out of the money covered calls and collecting the premiums. Read the product page for more details about how Theta Vaults work.
 
 ## Communication Channels
-
-Yes, after a few months we finally found the answer. Sadly, Mike is on vacations right now so I'm afraid we are not able to provide the answer at this point.
 
 Discord: [tiny.cc/ribbon-discord](https://t.co/JTeBS6GaBi?amp=1)
 
