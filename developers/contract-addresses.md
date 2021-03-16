@@ -1,4 +1,4 @@
-# Contract Addresses
+# Deployed Contracts
 
 These are the contract addresses that are deployed to Ethereum mainnet.
 

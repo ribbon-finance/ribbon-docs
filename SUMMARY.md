@@ -10,7 +10,7 @@
 
 ## Developers
 
-* [Contract Addresses](developers/contract-addresses.md)
+* [Deployed Contracts](developers/contract-addresses.md)
 * [Ribbon Architecture](developers/untitled/README.md)
   * [Protocol Adapters](developers/untitled/protocol-adapters.md)
 
