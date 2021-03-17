@@ -33,5 +33,5 @@ Each Series in Ribbon serve a particular purpose for our users:
 
 ## Contributing Product Ideas
 
-If you have any ideas on what you want to see built, or want to build it for yourself using Ribbon's code, do reach out! We're building a community of yield hackers. More information on how to contribute can be found it [this page](../additional-resources/contribute.md).
+If you have any ideas on what you want to see built, or want to build it for yourself using Ribbon's code, do reach out! We're building a community of yield hackers. More information on how to contribute can be found in [this page](../additional-resources/contribute.md).
 
