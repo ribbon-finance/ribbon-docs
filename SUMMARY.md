@@ -5,9 +5,9 @@
 
 ## Products
 
+* [Product Naming & Ideas](products/product-ideas-and-roadmap.md)
 * [Series V - Volatility Strangles](products/series-v-volatility-strangles.md)
 * [Series Y - Theta Vaults](products/series-y-theta-vaults.md)
-* [Product Ideas & Roadmap](products/product-ideas-and-roadmap.md)
 
 ## Developers
 
