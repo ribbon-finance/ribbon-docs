@@ -1,5 +1,9 @@
 # Series V - Volatility Strangles
 
+Series V is a series of products that help users speculate on the volatility of a crypto asset. The first product in Series V is the ETH Strangle product which allows users to make money when ETH is volatile over a time period.
+
+## Overview
+
 ### What are Strangles?
 
 A [strangle](https://en.wikipedia.org/wiki/Strangle_%28options%29) is an options strategy in which the investor holds a call and a put position at different strike prices. A strangle is a good strategy if you think the underlying asset will experience a large price movement in the near future, but are unsure of the direction.
