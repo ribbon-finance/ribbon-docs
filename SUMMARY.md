@@ -11,8 +11,8 @@
 ## Developers
 
 * [Deployed Contracts](developers/contract-addresses.md)
-* [Ribbon Architecture](developers/untitled/README.md)
-  * [Protocol Adapters](developers/untitled/protocol-adapters.md)
+* [Ribbon Architecture](developers/untitled.md)
+* [Protocol Adapters](developers/protocol-adapters.md)
 
 ## Additional Resources
 
