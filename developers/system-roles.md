@@ -21,3 +21,5 @@ Although we are starting with this, we plan to decentralize these functions over
 * We plan to decentralize the function of the manager to a group of strategists that are voted on by the community, including better incentive mechanisms for encouraging good management of the vault
 * We plan to open up the option buying function to anyone in the community through an auction-like mechanism, and remove whitelists
 
+
+

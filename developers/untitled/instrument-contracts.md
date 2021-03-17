@@ -4,11 +4,7 @@ Instrument contracts are financial contracts that have an expiry date. Using the
 
 ![Flow chart for an Instrument contract](../../.gitbook/assets/instrument-flowchart%20%281%29.png)
 
-When a user makes a function call to an Instrument contract, it 
-
-
-
-The ProtocolAdapter contracts are called with [delegatecalls](https://medium.com/coinmonks/delegatecall-calling-another-contract-function-in-solidity-b579f804178c). This means that each Instrument contract is calling the function of the Protocol Adapter, but using its own storage. When an Instrument calls `HegicAdapter.purchase`, the `msg.sender` in the Hegic function call would be the Instrument, not the HegicAdapter itself.
+When a user makes a function call to an Instrument contract,  it will make contract calls to different protocol adapters to perform protocol-specific functions. When calling protocol adapters, the instrument contract is using `delegatecall`. This means that instead of executing the function in the context of the adapter, the Instrument contract takes control of the execution.
 
 This solves a few key problems:
 
