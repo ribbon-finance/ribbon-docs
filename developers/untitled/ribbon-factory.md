@@ -1,10 +1,40 @@
 # Ribbon Factory
 
-Ribbon uses the Proxy Factory pattern to deploy new instruments in the protocol. The RibbonFactory has the function `newInstrument` which deploys a new instrument and keeps the record of newly deployed instrument's address.
+The RibbonFactory contract is a factory contract used to deploy new instances of instrument contracts. It is a ProxyFactory which deploys proxies of Instruments and keeps the records of all deployed instruments.
 
-The factory is also the swiss-army knife of Ribbon, and holds a few different information:
+The RibbonFactory is also the Swiss Army knife of Ribbon. It also has a few key functionalities such as:
 
-* Instrument addresses
-* Adapter addresses
-* Gas subsidies from the Ribbon team
+* Storing deployed instrument addresses
+* Storing Adapter addresses
+* Holding Chi gas token subsidies from the Ribbon team
+
+## API
+
+#### `initialize(address _owner, address _instrumentAdmin)` \(public\)
+
+Constructor that takes the owner address and the admin for the AdminUpgradeabilityProxy instances.
+
+#### `getInstrument(string _name) → address instrumentAddress` \(public\)
+
+Getter for getting contract address by instrument name.
+
+#### `newInstrument(address _logic, bytes _initData) → address instrumentAddress` \(public\)
+
+Deploys a new instrument. This is currently only limited to the owner.
+
+**Parameters:**
+
+* `_logic`: address of the logic contract of the instrument
+* `_initData`: encoded call data for the `initialize` function for the instrument contract
+
+#### `setAdapter(string protocolName, address adapter)` \(public\)
+
+**Parameters:**
+
+* `_logic`: address of the logic contract of the instrument
+* `_initData`: encoded call data for the `initialize` function for the instrument contract
+
+#### `getAdapters() → address[] _adapters` \(external\)
+
+Returns an array of deployed instruments.
 
