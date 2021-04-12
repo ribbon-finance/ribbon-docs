@@ -9,9 +9,7 @@ These are the contract addresses that are deployed to Ethereum mainnet.
 | RibbonVolatilityImplementation | [0x7004f9fcdE66E2ecABF408132Cb21Ebbcf53D4B0](https://etherscan.io/address/0x7004f9fcdE66E2ecABF408132Cb21Ebbcf53D4B0) |
 | HegicAdapter | [0x0bd5Aa838368E91F8959bA0d2a254FfdD09daa8c](https://etherscan.io/address/0x0bd5Aa838368E91F8959bA0d2a254FfdD09daa8c) |
 | GammaAdapter | [0x2C4A3eF36e204706014eEe6267f82a29773D0632](https://etherscan.io/address/0x2C4A3eF36e204706014eEe6267f82a29773D0632) |
-| RibbonCoveredCall | N/A |
-
-## Instruments
+| RibbonCoveredCall | [0x0FABaF48Bbf864a3947bdd0Ba9d764791a60467A](https://etherscan.io/address/0x0FABaF48Bbf864a3947bdd0Ba9d764791a60467A) |
 
 Instrument contracts are contracts that have a specific expiry and underlying asset. These contracts are deployed as time goes by.
 
