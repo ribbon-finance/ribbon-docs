@@ -2,7 +2,7 @@
 
 ## Bug Bounty
 
-TBA
+We have an ongoing [bug bounty on ImmuneFi](https://immunefi.com/bounty/ribbon/), with up to $50,000 of bounty.
 
 ## Audits
 
