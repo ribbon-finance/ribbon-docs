@@ -1,6 +1,6 @@
 # Introduction to Ribbon
 
-Ribbon Finance is a new protocol that helps users access crypto structured products for DeFi. It combine options, futures, and fixed income to improve a portfolio's risk-return profile.
+Ribbon Finance is a new protocol that helps users access crypto structured products for DeFi. It combines options, futures, and fixed income to improve a portfolio's risk-return profile.
 
 Here you can find the product descriptions and outgoing links to the different communication channels if you want to contribute.
 
