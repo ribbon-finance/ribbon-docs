@@ -11,6 +11,7 @@ These are the contract addresses that are deployed to Ethereum mainnet.
 | GammaAdapter | [0x9C304151F3AA63e6f6C8Ed24C4ee8398540C73B2](https://etherscan.io/address/0x9C304151F3AA63e6f6C8Ed24C4ee8398540C73B2) |
 | RibbonThetaVault ETH Call | [0x0FABaF48Bbf864a3947bdd0Ba9d764791a60467A](https://etherscan.io/address/0x0FABaF48Bbf864a3947bdd0Ba9d764791a60467A) |
 | RibbonThetaVault WBTC Call | [0x8b5876f5B0Bf64056A89Aa7e97511644758c3E8c](https://etherscan.io/address/0x8b5876f5B0Bf64056A89Aa7e97511644758c3E8c) |
+| RibbonThetaVault ETH Put | [0x16772a7f4a3ca291C21B8AcE76F9332dDFfbb5Ef](https://etherscan.io/address/0x16772a7f4a3ca291C21B8AcE76F9332dDFfbb5Ef) |
 
 Instrument contracts are contracts that have a specific expiry and underlying asset. These contracts are deployed as time goes by.
 
