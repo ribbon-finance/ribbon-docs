@@ -5,7 +5,7 @@
 
 ## Products
 
-* [Series Y - Theta Vaults](products/series-y-theta-vaults.md)
+* [Theta Vault](products/series-y-theta-vaults.md)
 
 ## Developers
 

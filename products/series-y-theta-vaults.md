@@ -1,6 +1,4 @@
-# Series Y - Theta Vaults
-
-Series Y is a series of structured products that are focused on yield-enhancing strategies for assets such as ETH and BTC.
+# Theta Vault
 
 The first Theta Vault will run a [covered call](https://www.investopedia.com/terms/c/coveredcall.asp) strategy, which earns yield on a weekly basis through writing out of the money covered calls and collecting the premiums.
 
