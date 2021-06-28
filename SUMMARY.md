@@ -5,7 +5,6 @@
 
 ## Products
 
-* [Series V - Volatility Strangles](products/series-v-volatility-strangles.md)
 * [Series Y - Theta Vaults](products/series-y-theta-vaults.md)
 
 ## Developers
