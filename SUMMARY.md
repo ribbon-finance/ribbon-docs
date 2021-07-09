@@ -12,7 +12,6 @@
 * [Deployed Contracts](developers/contract-addresses.md)
 * [Ribbon Architecture](developers/architecture/README.md)
   * [Ribbon Factory](developers/architecture/ribbon-factory.md)
-  * [Instrument Contracts](developers/architecture/instrument-contracts.md)
   * [Protocol Adapters](developers/architecture/protocol-adapters.md)
 * [System Roles](developers/system-roles.md)
 * [Security](developers/security.md)

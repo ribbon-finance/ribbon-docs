@@ -7,7 +7,6 @@ These are the contract addresses that are deployed to Ethereum mainnet.
 | RibbonFactoryProxy | [0x863dd8Ea9B7472c54CdE1F0e2D5B2bCC8CBf0Cd1](https://etherscan.io/address/0x863dd8Ea9B7472c54CdE1F0e2D5B2bCC8CBf0Cd1) |
 | RibbonFactoryImplementation | [0x6e0f736a2a0b81E7D8B7D6Ac3608aC977341bA4F](https://etherscan.io/address/0x6e0f736a2a0b81E7D8B7D6Ac3608aC977341bA4F) |
 | RibbonVolatilityImplementation | [0x7004f9fcdE66E2ecABF408132Cb21Ebbcf53D4B0](https://etherscan.io/address/0x7004f9fcdE66E2ecABF408132Cb21Ebbcf53D4B0) |
-| HegicAdapter | [0x0bd5Aa838368E91F8959bA0d2a254FfdD09daa8c](https://etherscan.io/address/0x0bd5Aa838368E91F8959bA0d2a254FfdD09daa8c) |
 | GammaAdapter | [0x9C304151F3AA63e6f6C8Ed24C4ee8398540C73B2](https://etherscan.io/address/0x9C304151F3AA63e6f6C8Ed24C4ee8398540C73B2) |
 | RibbonThetaVault ETH Call | [0x0FABaF48Bbf864a3947bdd0Ba9d764791a60467A](https://etherscan.io/address/0x0FABaF48Bbf864a3947bdd0Ba9d764791a60467A) |
 | RibbonThetaVault WBTC Call | [0x8b5876f5B0Bf64056A89Aa7e97511644758c3E8c](https://etherscan.io/address/0x8b5876f5B0Bf64056A89Aa7e97511644758c3E8c) |

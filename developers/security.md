@@ -18,4 +18,5 @@ Please see below for the list of audits:
 
 * [Peckshield for Theta Vault](https://github.com/ribbon-finance/audit/blob/master/reports/PeckShield-Audit-Report-Ribbon-v1.0.pdf)
 * [ChainSafe for Theta Vault](https://github.com/ChainSafe/audits/blob/main/Ribbon%20Finance/Ribbon-Audit_April-2021.pdf)
+* [Quantstamp for Theta Vault](https://github.com/ribbon-finance/audit/blob/master/reports/Quantstamp%20Theta%20Vault.pdf)
 

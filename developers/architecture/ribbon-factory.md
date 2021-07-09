@@ -6,7 +6,6 @@ The RibbonFactory is also the Swiss Army knife of Ribbon. It also has a few key 
 
 * Storing deployed instrument addresses
 * Storing Adapter addresses
-* Holding Chi gas token subsidies from the Ribbon team
 
 ## API
 

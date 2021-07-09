@@ -4,7 +4,7 @@ Currently, the protocol has a few privileged roles that help bootstrap the proto
 
 | Role | Description |
 | :--- | :--- |
-| Admin | Multisig address that is able upgrade proxies of the RibbonFactory and instrument contracts. |
+| Admin | Multisig address that is able upgrade proxies of the RibbonFactory and Theta Vault contracts. |
 | Owner | Multisig address that is able to set adapters to be used in the protocol and select managers for a vault. |
 | Manager | Multisig address that performs the day-to-day operations of an Options Vault. This includes selecting parameters of options to sell for a vault. |
 
