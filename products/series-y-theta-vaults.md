@@ -1,12 +1,12 @@
 # Theta Vault
 
-The first Theta Vault will run a [covered call](https://www.investopedia.com/terms/c/coveredcall.asp) strategy, which earns yield on a weekly basis through writing out of the money covered calls and collecting the premiums.
+Theta Vault runs are vaults that run an automated options selling strategy, which earns yield on a weekly basis through writing out of the money options and collecting the premiums.
 
 ## What are Theta Vaults?
 
 Theta Vaults use the Vault terminology because it stems from the idea of depositing your assets into a vault and earning a yield on them, set-and-forget.
 
-Users can simply deposit their assets into a smart contract and will automatically start running a specific options strategy. This alleviates a majority of the gas problems by socializing the gas costs across all the vault depositors. Instead of doing 3–4 transactions per week per user, the vault will do 3–4 transactions per week for thousands of users at once. This makes the user experience of using these Option Vaults extremely straightforward and relatively cheap — deposit, wait for yields, and withdraw.
+Users can simply deposit their assets into a smart contract and will automatically start running a specific options strategy. This alleviates a majority of the gas problems by socializing the gas costs across all the vault depositors. Instead of doing 3–4 transactions per week per user, the vault will do 3–4 transactions per week for thousands of users at once. This makes the user experience of using these Theta Vaults extremely straightforward and relatively cheap — deposit, wait for yields, and withdraw.
 
 ## What is a Covered Call strategy?
 
