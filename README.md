@@ -8,7 +8,16 @@ Here you can find the product descriptions and outgoing links to the different c
 
 ### Theta Vault
 
-Theta Vault, which is a yield-focused strategy on ETH and WBTC. The first Theta Vault will run a [covered call](https://www.investopedia.com/terms/c/coveredcall.asp) strategy, which earns yield on a weekly basis through writing out of the money covered calls and collecting the premiums. Read the product page for more details about how Theta Vaults work.
+Theta Vault, which is a yield-focused strategy on ETH and WBTC. The vault earns yield on its deposits by running a weekly automated options selling strategy. The vault reinvests the yield earned back into the strategy, effectively compounding the yields for depositors over time.
+
+The Theta Vaults run two options strategies to generate yields:
+
+1. Covered call - Vault writes  out of the money covered calls.
+2. Put selling - Vault writes  out of the money puts.
+
+### Theta Vault Yearn
+
+Currently, funds held in Theta Vaults do not generate any yield, aside from writing options. To generate extra yields for depositors, the vault converts 100% of its USDC balance into yvUSDC by depositing USDC into the Yearn USDC yVault every Friday. This helps depositors gain exposure to the yield generated from Yearn on top of the options strategy.
 
 ## Communication Channels
 
