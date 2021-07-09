@@ -16,6 +16,7 @@
 * [System Roles](developers/system-roles.md)
 * [Security](developers/security.md)
 * [Ribbon Subgraph](developers/ribbon-subgraph.md)
+* [Ribbon v2](developers/ribbon-v2.md)
 
 ## Additional Resources
 
