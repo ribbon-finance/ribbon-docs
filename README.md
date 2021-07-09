@@ -17,7 +17,7 @@ The Theta Vaults run two options strategies to generate yields:
 
 ### Theta Vault Yearn
 
-Currently, funds held in Theta Vaults do not generate any yield, aside from writing options. To generate extra yields for depositors, the vault converts 100% of its USDC balance into yvUSDC by depositing USDC into the Yearn USDC yVault every Friday. This helps depositors gain exposure to the yield generated from Yearn on top of the options strategy.
+Currently, funds held in Theta Vaults do not generate any yield, aside from writing options. Every Friday, the vault converts 100% of its USDC balance into yvUSDC by depositing USDC into the Yearn USDC yVault. This helps depositors gain exposure to the yield generated from Yearn on top of the options strategy.
 
 ## Communication Channels
 
