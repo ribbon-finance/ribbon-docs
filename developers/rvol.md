@@ -26,7 +26,7 @@ RVOL is used heavily by Theta Vaults in Ribbon v2. Of note, v2 uses RVOL for:
 
 [VolOracle](https://etherscan.io/address/0x4df938e57fD4Ad1dFDdDEEb1B4cFAbAB19E33A0E) is an oracle contract that serves historical volatility information for any Uniswap v3 pool.
 
-Every 12 hours, the VolOracle's `commit` function is called, which uses the Uniswap v3 TWAP feature to get the TWAP for the time period. This TWAP is added to the contract, which is then used to calculate the period's return and the pool's standard deviation.
+Every 12 hours, the VolOracle's `commit` function is called, which uses the Uniswap v3 TWAP feature to get the TWAP for the time period. This TWAP is added to the contract, which is then used to calculate the period's return and the pool's price volatility.
 
 ### API
 
