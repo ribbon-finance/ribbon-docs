@@ -16,7 +16,7 @@
 * [System Roles](developers/system-roles.md)
 * [Security](developers/security.md)
 * [Ribbon Subgraph](developers/ribbon-subgraph.md)
-* [RVOL](developers/rvol.md)
+* [RVOL \(Ribbon Volatility\)](developers/rvol.md)
 * [Ribbon v2](developers/ribbon-v2.md)
 
 ## Additional Resources
