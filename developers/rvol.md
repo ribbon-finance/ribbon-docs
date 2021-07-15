@@ -66,12 +66,6 @@ The `getOptionDelta` function takes in the option's terms such as strike price a
 
 RVOL contracts deployed on the Ethereum mainnet is beta software and should be used with caution. These contracts still require time and usage on mainnet until it can prove its maturity. The smart contracts behind RVOL have been [audited by Peckshield](https://github.com/ribbon-finance/audit/blob/master/reports/PeckShield-Audit-Report-RVOL-v1.0rc.pdf).
 
-## FAQ
-
-**Is there a fee for using RVOL?**
-
-No, RVOL
-
 ## Resources
 
 GitHub: [https://github.com/ribbon-finance/rvol](https://github.com/ribbon-finance/rvol)
