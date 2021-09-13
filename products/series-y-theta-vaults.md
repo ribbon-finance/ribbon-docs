@@ -1,4 +1,4 @@
-# Theta Vault
+# Introduction to Theta Vault
 
 Theta Vault runs are vaults that run an automated options selling strategy, which earns yield on a weekly basis through writing out of the money options and collecting the premiums.
 

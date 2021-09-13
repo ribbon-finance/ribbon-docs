@@ -2,7 +2,14 @@
 
 These are the contract addresses that are deployed to Ethereum mainnet.
 
-### Theta Vaults
+### Theta Vaults v2
+
+| Contract | Address |
+| :--- | :--- |
+| RibbonThetaVault ETH Call | [0x25751853Eab4D0eB3652B5eB6ecB102A2789644B](https://etherscan.io/address/0x25751853Eab4D0eB3652B5eB6ecB102A2789644B) |
+| RibbonThetaVault WBTC Call | [0x65a833afDc250D9d38f8CD9bC2B1E3132dB13B2F](https://etherscan.io/address/0x65a833afDc250D9d38f8CD9bC2B1E3132dB13B2F) |
+
+### Theta Vaults v1
 
 | Contract | Address |
 | :--- | :--- |
@@ -10,12 +17,4 @@ These are the contract addresses that are deployed to Ethereum mainnet.
 | RibbonThetaVault WBTC Call | [0x8b5876f5B0Bf64056A89Aa7e97511644758c3E8c](https://etherscan.io/address/0x8b5876f5B0Bf64056A89Aa7e97511644758c3E8c) |
 | RibbonThetaVault ETH Put | [0x16772a7f4a3ca291C21B8AcE76F9332dDFfbb5Ef](https://etherscan.io/address/0x16772a7f4a3ca291C21B8AcE76F9332dDFfbb5Ef) |
 | RibbonThetaVault ETH Put yvUSDC | [0x8FE74471F198E426e96bE65f40EeD1F8BA96e54f](https://etherscan.io/address/0x8FE74471F198E426e96bE65f40EeD1F8BA96e54f) |
-
-### Periphery Contracts
-
-| Contract | Address |
-| :--- | :--- |
-| RibbonFactoryProxy | [0x863dd8Ea9B7472c54CdE1F0e2D5B2bCC8CBf0Cd1](https://etherscan.io/address/0x863dd8Ea9B7472c54CdE1F0e2D5B2bCC8CBf0Cd1) |
-| RibbonFactoryImplementation | [0x6e0f736a2a0b81E7D8B7D6Ac3608aC977341bA4F](https://etherscan.io/address/0x6e0f736a2a0b81E7D8B7D6Ac3608aC977341bA4F) |
-| GammaAdapter | [0x9C304151F3AA63e6f6C8Ed24C4ee8398540C73B2](https://etherscan.io/address/0x9C304151F3AA63e6f6C8Ed24C4ee8398540C73B2) |
 
