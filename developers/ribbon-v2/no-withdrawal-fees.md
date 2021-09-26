@@ -1,6 +1,6 @@
 # No withdrawal fees
 
-Mid-week withdrawals are no longer possible so it is only fair that we allow free withdrawals. We are replacing this with a management fee / performance fee to maintain ribbon finance and to potentially allow for $RBN value capture in the future.
+Mid-week withdrawals are no longer possible so it is only fair that we allow free withdrawals. We are replacing this with a management fee / performance fee \(only on profitable weeks\) to maintain ribbon finance and to potentially allow for $RBN value capture in the future.
 
 You can find the current performance / management fees either in the UI or via etherscan.
 
