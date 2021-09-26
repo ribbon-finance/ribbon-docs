@@ -13,7 +13,11 @@
 * [Security](developers/security.md)
 * [Ribbon Subgraph](developers/ribbon-subgraph.md)
 * [RVOL \(Ribbon Volatility\)](developers/rvol.md)
-* [Ribbon v2](developers/ribbon-v2.md)
+* [Ribbon v2](developers/ribbon-v2/README.md)
+  * [Decentralization](developers/ribbon-v2/decentralization.md)
+  * [Improved capital efficiency](developers/ribbon-v2/improved-capital-efficiency.md)
+  * [No withdrawal fees](developers/ribbon-v2/no-withdrawal-fees.md)
+  * [Meta-Vault Strategies](developers/ribbon-v2/meta-vault-strategies.md)
 
 ## Additional Resources
 
