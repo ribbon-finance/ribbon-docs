@@ -6,6 +6,7 @@
 ## Theta Vault <a id="products"></a>
 
 * [Introduction to Theta Vault](products/series-y-theta-vaults.md)
+* [Participating in Open Auctions](products/participating-in-open-auctions.md)
 
 ## Developers
 
