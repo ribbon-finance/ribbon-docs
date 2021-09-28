@@ -16,10 +16,7 @@
   * [Decentralization](developers/ribbon-v2/decentralization.md)
   * [No withdrawal fees](developers/ribbon-v2/no-withdrawal-fees.md)
   * [Meta-Vault Strategies](developers/ribbon-v2/meta-vault-strategies.md)
-
----
-
-* [RVOL \(Ribbon Volatility\)](rvol.md)
+* [RVOL \(Ribbon Volatility\)](developers/rvol.md)
 
 ## Additional Resources
 
