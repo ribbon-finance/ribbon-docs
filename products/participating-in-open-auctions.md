@@ -31,11 +31,9 @@ To run through how Theta Vaults would function, we use ETH Call Theta Vault as a
 
 Friday 8am UTC - Previous week's options expire. Settlement price is set.
 
-Friday 10.15am UTC - Strike price selected.
+Friday 10.45am UTC - Strike price selected.
 
 Friday 11.15am UTC - Auction commenced.
-
-Friday 11.45am UTC - No bids can be cancelled anymore.
 
 Friday 12.15pm UTC - Auction concludes.
 
