@@ -14,14 +14,14 @@ Placing a bid on the auction
 
 Claiming OTokens from Auction
 
-{% embed url="https://youtu.be/Q\_3jWpBLFpM" %}
+{% embed url="https://youtu.be/Q_3jWpBLFpM" %}
 
 ## Auction Process Flow
 
 To run through how Theta Vaults would function, we use ETH Call Theta Vault as an example.
 
 1. ETH Call Theta Vault holds 100 ETH from depositors. It rolls the 100 ETH into Opyn and mints 100 call options with $4000 strike, expiring next Friday.
-2. The vault starts the option auction. The vault deposits 100 call options onto the auction, and specifies the minimum price of an option. \(Premiums are denominated in underlying for calls, USDC for puts\)
+2. The vault starts the option auction. The vault deposits 100 call options onto the auction, and specifies the minimum price of an option. (Premiums are denominated in underlying for calls, USDC for puts)
 3. Auction participants participate in the auction by placing bids on-chain. They can place multiple bids and also cancel bids. Each bid consumes gas.
 4. Auction is concluded in one hour. The vault withdraws the premiums and earns yield for the week.
 5. If there are unsold options from the auctions, the vault withdraws the options and burns them.
@@ -41,7 +41,7 @@ Friday 12.15pm UTC - Auction concludes.
 
 To read the detailed doc about how Batch Auctions work, [please read this documentation by Gnosis](https://gnosis-auction.eth.link/#/docs/batch-auctions). This is only a summary of how the pricing mechanism works.
 
-![](../.gitbook/assets/untitled-1-%20%281%29.png)
+![](<../.gitbook/assets/untitled-1- (1).png>)
 
 1. Auction participants place their bids for the option.
 2. The auction is concluded, no new bids are accepted and no orders can be cancelled.
@@ -54,7 +54,7 @@ To read the detailed doc about how Batch Auctions work, [please read this docume
 ## Strategies for Executing a Buy
 
 * Since the auctions will run the full course of an hour, it is not great for market makers who instantly hedge the other side by buying options.
-* One way around this is to place a bid close to the end of the auction \(Friday 12.15pm UTC\). That way we learn if we are filled instantly.
+* One way around this is to place a bid close to the end of the auction (Friday 12.15pm UTC). That way we learn if we are filled instantly.
 * By bidding at the end, it also gives us a high certainty of being filled. We can just bid higher than what we think the final price would settle at.
 
 ## Auction User Interface Guide
@@ -77,6 +77,4 @@ In order to save on gas fees, one strategy would be to:
 * Only claim when orders are refunded.
 * Avoid claiming the otokens until expiry. Since the otokens will be worthless if they expire out-the money, we can wait until after the expiry to decide if we want to claim them or not.
 * If the otokens are out-the-money, we can avoid claiming the otokens entirely as it will incur gas costs.
-
-
 

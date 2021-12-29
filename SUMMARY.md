@@ -3,10 +3,14 @@
 * [Introduction to Ribbon](README.md)
 * [FAQ](faq.md)
 
-## Theta Vault <a id="products"></a>
+## Theta Vault <a href="#products" id="products"></a>
 
 * [Introduction to Theta Vault](products/series-y-theta-vaults.md)
 * [Participating in Open Auctions](products/participating-in-open-auctions.md)
+
+## User Guide
+
+* [Transferring V2 Vault Positions](user-guide/transferring-v2-vault-positions.md)
 
 ## Developers
 
@@ -17,7 +21,7 @@
   * [Decentralization](developers/ribbon-v2/decentralization.md)
   * [No withdrawal fees](developers/ribbon-v2/no-withdrawal-fees.md)
   * [Meta-Vault Strategies](developers/ribbon-v2/meta-vault-strategies.md)
-* [RVOL \(Ribbon Volatility\)](developers/rvol.md)
+* [RVOL (Ribbon Volatility)](developers/rvol.md)
 
 ## Additional Resources
 
@@ -26,5 +30,4 @@
 * [Discord](https://discord.com/invite/85gcVafPyN)
 * [Twitter](https://twitter.com/ribbonfinance)
 * [GitHub](https://github.com/ribbon-finance/structured-products)
-* [Blog](https://ribbonfinance.medium.com/)
-
+* [Blog](https://ribbonfinance.medium.com)

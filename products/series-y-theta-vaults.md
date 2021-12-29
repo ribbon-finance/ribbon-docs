@@ -14,9 +14,9 @@ The covered call strategy is a unique options strategy where you earn yield for 
 
 In the unlikely case that ETH goes to $30k, you would have given up $5k, but you are still tremendously up in USD terms — it is a win-win scenario for you because you only risk getting exercised when ETH absolutely moons.
 
-![Payoff diagram for a covered call strategy.](../.gitbook/assets/1_d4vypmerhnzg15ncsry4la.png)
+![Payoff diagram for a covered call strategy.](../.gitbook/assets/1\_d4vypmerhnzg15ncsry4la.png)
 
-## Strike Selection and Expiry <a id="377c"></a>
+## Strike Selection and Expiry <a href="#377c" id="377c"></a>
 
 To further reduce the risk of our options getting exercised, we can sell call options that expire sooner rather than later, because of how difficult it is to predict how ETH could perform over a longer time frame. Our initial vaults will sell _weekly_ call options, meaning we can adjust our expectation of ETH’s price on a weekly basis. This also has the nice side effect of letting us compound our premiums more frequently.
 
@@ -24,7 +24,7 @@ Secondly, we need to select strike prices that are far enough from today’s spo
 
 ## Technical Architecture
 
-Theta Vaults in its present design relies on [Opyn](https://opyn.co/) oTokens. oTokens are ERC20 token representations of an options contract, where each of them have a strike price and expiry. Owning oTokens is functionally equivalent to owning an options contract. This gives the oToken holder the right to redeem some amount of the underlying asset if the strike price is hit.
+Theta Vaults in its present design relies on [Opyn](https://opyn.co) oTokens. oTokens are ERC20 token representations of an options contract, where each of them have a strike price and expiry. Owning oTokens is functionally equivalent to owning an options contract. This gives the oToken holder the right to redeem some amount of the underlying asset if the strike price is hit.
 
 In order to run an options-writing strategy, the Vault needs to be able to mint and short oTokens. The Vault uses the users’ deposited funds to lock collateral into Opyn + mint oTokens, then sells them for a premium. The Vault’s collateral will be locked until the expiry of the oToken. This collateral is used to pay off oToken holders in the case that the options expire in the money.
 
@@ -37,9 +37,16 @@ In collaboration with option market makers, below is a diagram of how an options
 
 ![Theta Vault Options Sale](../.gitbook/assets/theta-vault-architecture-2-.png)
 
-1. Theta Vault mints oTokens ****a\) The manager selects an oToken to mint based on the parameters of strike price and expiry. b\) Vault uses deposited funds to lock collateral into Opyn protocol c\) Vault mints oToken and holds onto these oTokens
-2. Initiating oToken trade a\) Manager and market makers decide on a price to sell the oTokens for \(off-chain\) b\) Manager signs an Airswap order that exchanges the oTokens for WETH on behalf of the Theta Vault b\) Manager sends the signed order to a market maker \(off-chain\)
-3. Completing oToken trade a\) Market maker counter-signs the order and posts the trade on the blockchain b\) The swap is completed, Vault receives premium in WETH whereas the market maker receives the oTokens
+1. Theta Vault mints oTokens\
+   ****a) The manager selects an oToken to mint based on the parameters of strike price and expiry.\
+   b) Vault uses deposited funds to lock collateral into Opyn protocol\
+   c) Vault mints oToken and holds onto these oTokens
+2. Initiating oToken trade\
+   a) Manager and market makers decide on a price to sell the oTokens for (off-chain)\
+   b) Manager signs an Airswap order that exchanges the oTokens for WETH on behalf of the Theta Vault\
+   b) Manager sends the signed order to a market maker (off-chain)
+3. Completing oToken trade\
+   a) Market maker counter-signs the order and posts the trade on the blockchain\
+   b) The swap is completed, Vault receives premium in WETH whereas the market maker receives the oTokens
 
 The net result of this process is that the Vaults should receive premiums in return for writing the oTokens. This will mean that the Vault’s balance will expand over time as premiums are collected and compounded.
-
