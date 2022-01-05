@@ -8,6 +8,9 @@ These are the contract addresses that are deployed to Ethereum mainnet.
 | :--- | :--- |
 | RibbonThetaVault ETH Call | [0x25751853Eab4D0eB3652B5eB6ecB102A2789644B](https://etherscan.io/address/0x25751853Eab4D0eB3652B5eB6ecB102A2789644B) |
 | RibbonThetaVault WBTC Call | [0x65a833afDc250D9d38f8CD9bC2B1E3132dB13B2F](https://etherscan.io/address/0x65a833afDc250D9d38f8CD9bC2B1E3132dB13B2F) |
+| RibbonThetaVault yvUSDC Put | [0xCc323557c71C0D1D20a1861Dc69c06C5f3cC9624](https://etherscan.io/address/0xCc323557c71C0D1D20a1861Dc69c06C5f3cC9624) |
+| RibbonThetaVault stETH Call | [0x53773E034d9784153471813dacAFF53dBBB78E8c](https://etherscan.io/address/0x53773E034d9784153471813dacAFF53dBBB78E8c) |
+| RibbonThetaVault Aave Call | [0xe63151A0Ed4e5fafdc951D877102cf0977Abd365](https://etherscan.io/address/0xe63151A0Ed4e5fafdc951D877102cf0977Abd365)
 
 ### Theta Vaults v1
 
