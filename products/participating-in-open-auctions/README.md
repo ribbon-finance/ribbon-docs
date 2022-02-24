@@ -5,16 +5,9 @@
 * Open Auctions are a batch auction conducted on the Gnosis Auction platform to sell off options that are minted by Theta Vault.
 * A batch auction means that there is **only one clearing price**.
 * Using an auction allows for price discovery on-chain, to ensure the options sale process is decentralized.
-
-## Video Guides
-
-Placing a bid on the auction
-
-{% embed url="https://youtu.be/w-NiTumXeR0" %}
-
-Claiming OTokens from Auction
-
-{% embed url="https://youtu.be/Q_3jWpBLFpM" %}
+* Currently it is possible to participate through two different UIs:
+  * Ribbon Auction UI (Recommended) - [Guide](participating-through-ribbon-ui.md)
+  * Gnosis Auction UI - [Guide](participating-through-gnosis-ui.md)
 
 ## Auction Process Flow
 
@@ -27,21 +20,35 @@ To run through how Theta Vaults would function, we use ETH Call Theta Vault as a
 5. If there are unsold options from the auctions, the vault withdraws the options and burns them.
 6. Auction participants get to claim their options from the auction. If the bid is not filled, the auction participant will then get a refund of their bid amount.
 
-## Auction Schedule
+## Auction Schedule\*
 
-Friday 8am UTC - Previous week's options expire. Settlement price is set.
+Friday 8.00am UTC - Previous week's options expire. Settlement price is set.
 
-Friday 10.45am UTC - Strike price selected.
+Friday \~9.00-10.00am UTC - Strike price selection.
 
-Friday 11.15am UTC - Auction commenced.
+Friday 10.20-10.30am UTC - WBTC Call Auction
 
-Friday 12.15pm UTC - Auction concludes.
+Friday 10.30-10.40am UTC - AAVE Call Auction
+
+Friday 10.40-10.50am UTC - stETH Call Auction
+
+Friday 10.50-11.00am UTC - ETH Call Auction
+
+Friday 11.00-11.10am UTC - ETH Put Auction (yvUSDC Vault)
+
+Friday 11.10-11.20am UTC - AVAX Call Auction
+
+Friday 11.20-11.30am UTCC - SOL Call Auction
+
+
+
+\*Subject to changes, valid as of 24 February 2022
 
 ## Batch Auction Summary
 
 To read the detailed doc about how Batch Auctions work, [please read this documentation by Gnosis](https://gnosis-auction.eth.link/#/docs/batch-auctions). This is only a summary of how the pricing mechanism works.
 
-![](<../.gitbook/assets/untitled-1- (1).png>)
+![](<../../.gitbook/assets/untitled-1- (1).png>)
 
 1. Auction participants place their bids for the option.
 2. The auction is concluded, no new bids are accepted and no orders can be cancelled.
@@ -53,28 +60,27 @@ To read the detailed doc about how Batch Auctions work, [please read this docume
 
 ## Strategies for Executing a Buy
 
-* Since the auctions will run the full course of an hour, it is not great for market makers who instantly hedge the other side by buying options.
-* One way around this is to place a bid close to the end of the auction (Friday 12.15pm UTC). That way we learn if we are filled instantly.
-* By bidding at the end, it also gives us a high certainty of being filled. We can just bid higher than what we think the final price would settle at.
-
-## Auction User Interface Guide
-
-A detailed rundown of how to use the Gnosis Auction interface can be [found here](https://gnosis-auction.eth.link/#/docs/participate-as-a-bidder).
-
-![Example of ETH call option auction](../.gitbook/assets/screenshot-2021-09-28-at-4.53.42-pm.png)
+* Since each auction runs for 10 minutes, participants are not recommended to instantly hedge the other side by buying options. Each participants' allocation is only determined when the auction is closed.
+* One way around this is to place a bid nearing the end of the auction. This way, the time difference between placing a bid and finding out your allocation will be much shorter.
+* By bidding nearing the end, it also puts you in a better position to win the auction since you can simply outbid the current settlement price. This gives you a higher certainty of getting the desired allocation.
 
 ## Optimizing for Gas
 
 There are 2 Ethereum transactions that have to land on-chain to participate in the auction:
 
-1. Placing an order
-2. Claiming the order
+#### 1. Placing an order
+
+When placing an order, we recommend setting your gas price to high. This is to prevent failed submission, especially if you decide to bid nearing the end of the auction.
+
+#### 2. Claiming an Order
 
 For claiming an order, when the order is not filled, you will get a refund of the collateral you locked into the order. On the other hand, if it is filled, you will get the otokens auctioned.
 
-In order to save on gas fees, one strategy would be to:
+When the auction is closed, there is no time limit for participants to claim their allocation and collateral. Hence, you can choose to set for regular gas price.
 
-* Only claim when orders are refunded.
-* Avoid claiming the otokens until expiry. Since the otokens will be worthless if they expire out-the money, we can wait until after the expiry to decide if we want to claim them or not.
-* If the otokens are out-the-money, we can avoid claiming the otokens entirely as it will incur gas costs.
+Additionally, we would suggest the following strategy when claiming:
+
+* For claims in which you can get collateral refunds, you can claim them immediately after auction closure
+* For claims in which you have an oToken allocation, you can avoid claiming the oTokens until expiry. Since the oTokens will be worthless if they expire out-the money, you can wait until after the expiry to decide if you want to claim them or not.
+* If the oTokens are out-the-money, you can avoid claiming the oTokens entirely as it will incur gas costs.
 
