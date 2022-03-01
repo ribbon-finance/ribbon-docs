@@ -1,4 +1,4 @@
-# Liquidity Gauges and RBN
+# Liquidity Gauges and RBN Emissions
 
 Ribbon incentivizes vault depositors with RBN, the protocol governance token. Allocation, distribution and emission of RBN are managed via several related DAO contracts:
 
@@ -16,7 +16,7 @@ RBN follows a constant inflation schedule of 250,000 RBN per week rewarded to va
 
 #### Liquidity Gauges
 
-Emissions are directed to users who deposit into the protocol option selling vaults. This usage is measured via “Liquidity Gauge” contracts. Each pool has an individual liquidity gauge. The [Gauge Controller ](liquidity-gauges-and-rbn.md#the-gauge-controller)maintains a list of gauges and their types, with the weights of each gauge and type.
+Emissions are directed to users who deposit into the protocol option selling vaults. This usage is measured via “Liquidity Gauge” contracts. Each pool has an individual liquidity gauge. The [Gauge Controller ](liquidity-gauges-and-rbn-emissions.md#the-gauge-controller)maintains a list of gauges and their types, with the weights of each gauge and type.
 
 To measure liquidity over time, the user deposits their vault tokens into the liquidity gauge. Coin rates which the gauge is getting depends on current emission rate, gauge weight, and gauge type weights. Each user receives a share of newly emitted RBN proportional to the amount of vault tokens locked. Additionally, rewards may be boosted by up to factor of 2.5 if the user vote-locks tokens for Ribbon governance in the [Voting Escrow](vote-escrowed-rbn.md) contract.
 
