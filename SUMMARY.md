@@ -19,7 +19,7 @@
 * [Overview](ribbon-dao/overview.md)
 * [Vote-Escrowed RBN](ribbon-dao/vote-escrowed-rbn.md)
 * [Fee Collection and Distribution](ribbon-dao/fee-collection-and-distribution.md)
-* [Liquidity Gauges and Emitting RBN](ribbon-dao/liquidity-gauges-and-emitting-rbn.md)
+* [Liquidity Gauges and RBN](ribbon-dao/liquidity-gauges-and-rbn.md)
 * [Bribes](ribbon-dao/bribes.md)
 * [Upgrades](ribbon-dao/upgrades.md)
 
