@@ -8,7 +8,7 @@ Ribbon incentivizes vault depositors with RBN, the protocol governance token. Al
 
 ### Implementation Details
 
-#### RBN Inflation
+#### RBN Emissions
 
 RBN follows a constant inflation schedule of 250,000 RBN per week rewarded to vault depositors over the course of 6 months. This is \~6.5 M RBN overall, or 0.65% of total supply. This is subject to changes before the 6 months have elapsed. We will officially revisit this inflation schedule after the 6 months.&#x20;
 
