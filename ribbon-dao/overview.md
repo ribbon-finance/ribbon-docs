@@ -1,6 +1,6 @@
 # Overview
 
-Ribbon DAO consists of multiple smart contracts connected. Governor Bravo's standard one token, one vote method is expanded to include a weighting system based on locking RBN for veRBN tokens.
+Ribbon DAO consists of multiple smart contracts. Governor Bravo's standard one token, one vote method is expanded to include a weighting system based on locking RBN for veRBN tokens.
 
 Ribbon DAO has two tokens:
 
