@@ -22,6 +22,7 @@
 * [Liquidity Gauges and RBN Emissions](ribbon-dao/liquidity-gauges-and-rbn-emissions.md)
 * [Bribes](ribbon-dao/bribes.md)
 * [Upgrades](ribbon-dao/upgrades.md)
+* [FAQ](ribbon-dao/faq.md)
 
 ## Developers
 
