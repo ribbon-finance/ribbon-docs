@@ -4,13 +4,15 @@ These are the contract addresses that are deployed to Ethereum mainnet.
 
 ### Ribbon DAO
 
-| Contract              |                                                                                                                       | Address                                                                                                               |
-| --------------------- | --------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
-| Voting Escrow         | [VotingEscrow.vy](https://github.com/ribbon-finance/governance/blob/main/contracts/rbn-staking/VotingEscrow.vy)       | [0x19854C9A5fFa8116f48f984bDF946fB9CEa9B5f7](https://etherscan.io/address/0x19854C9A5fFa8116f48f984bDF946fB9CEa9B5f7) |
-| VeBoost Proxy         | [DelegationProxy.vy](https://github.com/ribbon-finance/governance/blob/main/contracts/rbn-staking/DelegationProxy.vy) | [0x1929605B714517b76bB733198E0f3C3D4ab08608](https://etherscan.io/address/0x1929605B714517b76bB733198E0f3C3D4ab08608) |
-| VeRBN Penalty Rewards | [VeRBNRewards.sol](https://github.com/ribbon-finance/governance/blob/main/contracts/rbn-staking/VeRBNRewards.sol)     | [0x88f0110E9Fa61aaCa84cCE7203c8A702681Ab33e](https://etherscan.io/address/0x88f0110E9Fa61aaCa84cCE7203c8A702681Ab33e) |
-| Gauge Controller      | [GaugeController.vy](https://github.com/ribbon-finance/governance/blob/main/contracts/rbn-staking/GaugeController.vy) | [0x0cb9cc35cEFa5622E8d25aF36dD56DE142eF6415](https://etherscan.io/address/0x0cb9cc35cEFa5622E8d25aF36dD56DE142eF6415) |
-| Minter                | [Minter.vy](https://github.com/ribbon-finance/governance/blob/main/contracts/tvl-staking/Minter.vy)                   | [0x5B0655F938A72052c46d2e94D206ccB6FF625A3A](https://etherscan.io/address/0x5B0655F938A72052c46d2e94D206ccB6FF625A3A) |
+| Contract              |                                                                                                                                     | Address                                                                                                               |
+| --------------------- | ----------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
+| Voting Escrow         | [VotingEscrow.vy](https://github.com/ribbon-finance/governance/blob/main/contracts/rbn-staking/VotingEscrow.vy)                     | [0x19854C9A5fFa8116f48f984bDF946fB9CEa9B5f7](https://etherscan.io/address/0x19854C9A5fFa8116f48f984bDF946fB9CEa9B5f7) |
+| Fee Distributor       | [FeeDistributor.vy](https://github.com/ribbon-finance/governance/blob/main/contracts/rbn-staking/FeeDistributor.vy)                 | [0x29893Bcd1fdA6da4f29D0e21edc55Abc3A29A202](https://etherscan.io/address/0x29893Bcd1fdA6da4f29D0e21edc55Abc3A29A202) |
+| VeRBN Penalty Rewards | [VeRBNRewards.sol](https://github.com/ribbon-finance/governance/blob/main/contracts/rbn-staking/VeRBNRewards.sol)                   | [0x88f0110E9Fa61aaCa84cCE7203c8A702681Ab33e](https://etherscan.io/address/0x88f0110E9Fa61aaCa84cCE7203c8A702681Ab33e) |
+| VeBoost Proxy         | [DelegationProxy.vy](https://github.com/ribbon-finance/governance/blob/main/contracts/rbn-staking/DelegationProxy.vy)               | [0x1929605B714517b76bB733198E0f3C3D4ab08608](https://etherscan.io/address/0x1929605B714517b76bB733198E0f3C3D4ab08608) |
+| VeBoost Delegation    | [VotingEscrowDelegation.vy](https://github.com/ribbon-finance/governance/blob/main/contracts/rbn-staking/VotingEscrowDelegation.vy) | [0xb913090f0fcc2473dfcceaf41653a806bcb85fab](https://etherscan.io/address/0xb913090f0fcc2473dfcceaf41653a806bcb85fab) |
+| Gauge Controller      | [GaugeController.vy](https://github.com/ribbon-finance/governance/blob/main/contracts/rbn-staking/GaugeController.vy)               | [0x0cb9cc35cEFa5622E8d25aF36dD56DE142eF6415](https://etherscan.io/address/0x0cb9cc35cEFa5622E8d25aF36dD56DE142eF6415) |
+| Minter                | [Minter.vy](https://github.com/ribbon-finance/governance/blob/main/contracts/tvl-staking/Minter.vy)                                 | [0x5B0655F938A72052c46d2e94D206ccB6FF625A3A](https://etherscan.io/address/0x5B0655F938A72052c46d2e94D206ccB6FF625A3A) |
 
 ### Liquidity Gauges
 
