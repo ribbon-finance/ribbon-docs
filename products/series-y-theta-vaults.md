@@ -20,7 +20,7 @@ In the unlikely case that ETH goes to $30k, you would have given up $5k, but you
 
 To further reduce the risk of our options getting exercised, we can sell call options that expire sooner rather than later, because of how difficult it is to predict how ETH could perform over a longer time frame. Our initial vaults will sell _weekly_ call options, meaning we can adjust our expectation of ETH’s price on a weekly basis. This also has the nice side effect of letting us compound our premiums more frequently.
 
-Secondly, we need to select strike prices that are far enough from today’s spot price to reduce the risk of exercise. Our current methodology for strike selection and backtests show that we only get exercised less than 5% of the time from Jan 2020 to today, even throughout the entire run up of ETH from $80 to $2000. We will publish a follow-up blog post about our strike selection methodology in detail.
+Secondly, we need to select strike prices that are far enough from today’s spot price to reduce the risk of exercise. Our current methodology for strike selection and backtests show that we only get exercised less than 5% of the time from Jan 2020 to today, even throughout the entire run up of ETH from $80 to $2000.&#x20;
 
 ## Technical Architecture
 
@@ -50,3 +50,12 @@ In collaboration with option market makers, below is a diagram of how an options
    b) The swap is completed, Vault receives premium in WETH whereas the market maker receives the oTokens
 
 The net result of this process is that the Vaults should receive premiums in return for writing the oTokens. This will mean that the Vault’s balance will expand over time as premiums are collected and compounded.
+
+
+
+## Oracles
+
+Ribbon mints options using [Opyn](https://www.opyn.co) and hence inherits Opyn's oracle system for settling the options. Currently, Opyn uses [Chainlink](https://opyn.gitbook.io/opyn/#how-does-auto-exercise-work) as the oracle provider for settling the options.&#x20;
+
+By using Chainlink instead of other on-chain oracles, Ribbon users are not susceptible to flashloan attacks that manipulate the price of an asset. &#x20;
+
