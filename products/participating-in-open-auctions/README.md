@@ -3,7 +3,7 @@
 ## Overview
 
 * Open Auctions are a batch auction conducted on the Gnosis Auction platform to sell off options that are minted by Theta Vault.
-* A batch auction means that there is **only one clearing price**.
+* A batch auction means that there is **only one clearing price,** which eliminates front-running.&#x20;
 * Using an auction allows for price discovery on-chain, to ensure the options sale process is decentralized.
 * Currently it is possible to participate through two different UIs:
   * Ribbon Auction UI (Recommended) - [Guide](participating-through-ribbon-ui.md)
