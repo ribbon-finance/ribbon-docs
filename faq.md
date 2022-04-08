@@ -70,20 +70,20 @@ Although we do not generally offer token recovery services, we review these inst
 
 We offer two types of withdrawals:
 
-1. Instant: only applicable to funds that are deposited mid-week and have yet to be actively used in the vault. You can withdraw until Friday 10am UTC
-2. Queued: a two-step withdrawal process. At any point in time you can submit a withdrawal (or many) to the queue and then finalise your it after Friday 10am UTC
+1. Instant: only applicable to funds that are deposited mid-week and have yet to be actively used in the vault. You can withdraw until Friday 10am UTC.
+2. Queued: a two-step withdrawal process. At any point in time you can submit a withdrawal (or many) to the queue and then finalise your it after Friday 10am UTC.
 
-### Are queued withdrawals subjected to profit or loss of the week?
+### Are queued withdrawals subject to profit or loss of the week?
 
 Yes, since you are initiating a withdrawal for vault shares, those shares are subject to either the profits or losses of that week which will adjust the final withdrawable amount.
 
 ### Can I cancel a queued withdrawal?
 
-Unfortunately, you can't cancel a withdrawal as you'll have to complete it and reinvest the funds at a later time.
+Unfortunately, you can't cancel a queued withdrawal as you'll have to complete it and reinvest the funds at a later time.
 
 ### Do planned/queued withdrawals count as two gas transactions?
 
-Yes, this process with count as two gas transactions.
+Yes, this process will count as two gas transactions.
 
 ### Can I withdraw stETH from the T-STETH-C vault?
 
@@ -91,7 +91,7 @@ Yes.
 
 ### Can I withdraw yvUSDC from the T-YVUSDC-P-ETH vault?
 
-No, you will get back USDC.
+No, you will receive USDC.
 
 ## Trading
 
