@@ -71,7 +71,7 @@ Although we do not generally offer token recovery services, we review these inst
 We offer two types of withdrawals:
 
 1. Instant: only applicable to funds that are deposited mid-week and have yet to be actively used in the vault. You can withdraw until Friday 10am UTC.
-2. Queued: a two-step withdrawal process. At any point in time you can submit a withdrawal (or many) to the queue and then finalise your it after Friday 10am UTC.
+2. Queued: a two-step withdrawal process. At any point in time you can submit a withdrawal (or many) to the queue and then finalise it after Friday 10am UTC.
 
 ### Are queued withdrawals subject to profit or loss of the week?
 
@@ -79,7 +79,7 @@ Yes, since you are initiating a withdrawal for vault shares, those shares are su
 
 ### Can I cancel a queued withdrawal?
 
-Unfortunately, you can't cancel a queued withdrawal as you'll have to complete it and reinvest the funds at a later time.
+Unfortunately, you can't cancel a queued withdrawal. You'll have to complete it and reinvest the funds at a later time.
 
 ### Do planned/queued withdrawals count as two gas transactions?
 
@@ -129,7 +129,7 @@ No.
 
 ### How is the strike calculated?
 
-Our V2 vaults use an algorithmic strike selection with a delta of 0.1 for writing options, see our blog post [here](https://ribbonfinance.medium.com/algorithmic-strike-selection-e07ae917c146) and the underlying model is Black-Scholes [here](https://github.com/ribbon-finance/rvol/blob/master/contracts/core/OptionsPremiumPricerInStables.sol#L163).&#x20;
+Our V2 vaults use an algorithmic strike selection with a delta of 0.1 for writing options, see our blog post [here](https://ribbonfinance.medium.com/algorithmic-strike-selection-e07ae917c146) and the underlying Black-Scholes model [here](https://github.com/ribbon-finance/rvol/blob/master/contracts/core/OptionsPremiumPricerInStables.sol#L163).&#x20;
 
 ### How can I find out the next strike in advance?
 
