@@ -10,6 +10,10 @@ The Ribbon system allows **veRBN** holders to vote how **RBN** inflation is dist
 * Gauge weight votes will be **bi-weekly,** starting Fridays at 00:00 UTC and ending on Wednesday 00:00 UTC. The Multisig will then have 2 days to manually update gauge weights accordingly. Please see figure below for the lifecycle of gauge weight vote proposals.
   * Other Ribbon governance votes will be addressed as they arise.
 
+{% hint style="warning" %}
+Ribbon Finance multi-sig is still required to sign to establish outcomes of all Ribbon Snapshot votes, for both governance and Ribbon gauge weight votes. In almost all cases, we will vote in-line with RBN / veRBN holders. However, proposals considered to be blatant attacks damaging the protocol will not be signed for.
+{% endhint %}
+
 ![](<../.gitbook/assets/IMAGE 2022-04-07 111450.jpg>)
 
 
