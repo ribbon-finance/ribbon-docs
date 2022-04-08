@@ -28,15 +28,15 @@ We're currently on Ethereum mainnet, Avalanche, and Solana.
 
 ### Does Ribbon have a token?
 
-Yes, Ribbon has a governance token, RBN. Please read the [RBN announcement blog post](https://ribbonfinance.medium.com/decentralizing-ribbon-governance-395950da7a6) for more details. The RBN token is [0x6123B0049F904d730dB3C36a31167D9d4121fA6B](https://etherscan.io/address/0x6123b0049f904d730db3c36a31167d9d4121fa6b).&#x20;
+Yes, Ribbon has a governance token, RBN. Please read the RBN announcement blog [post](https://ribbonfinance.medium.com/decentralizing-ribbon-governance-395950da7a6) for more details. The RBN token is [0x6123B0049F904d730dB3C36a31167D9d4121fA6B](https://etherscan.io/address/0x6123b0049f904d730db3c36a31167d9d4121fa6b).&#x20;
 
 ### Are the vaults audited?
 
-Yes, we're audited by [OpenZeppelin](https://blog.openzeppelin.com/ribbon-finance-audit/), [ChainSafe](https://github.com/ribbon-finance/audit/blob/master/reports/RibbonThetaVault%20V2%20Smart%20Contract%20Review%20And%20Verification.pdf) and [Peckshield](https://github.com/ribbon-finance/audit/blob/master/reports/PeckShield-Audit-Report-Ribbon-v1.0.pdf). Despite that, users are advised to exercise caution and only risk funds they can afford to lose.
+We're audited by [OpenZeppelin](https://blog.openzeppelin.com/ribbon-finance-audit/), [ChainSafe](https://github.com/ribbon-finance/audit/blob/master/reports/RibbonThetaVault%20V2%20Smart%20Contract%20Review%20And%20Verification.pdf) and [Peckshield](https://github.com/ribbon-finance/audit/blob/master/reports/PeckShield-Audit-Report-Ribbon-v1.0.pdf). Despite that, users are advised to exercise caution and only risk funds they can afford to lose.
 
 ### Do you have a bounty program?
 
-Yes we offer a bounty for up to $250,000. Learn more [here](https://immunefi.com/bounty/ribbon/).
+Yes, we offer a bounty for up to $250,000. Learn more [here](https://immunefi.com/bounty/ribbon/).
 
 ## Deposits&#x20;
 
