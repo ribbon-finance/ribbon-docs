@@ -101,7 +101,11 @@ The vault fee structure consists of a 2% annualised management fee and a 10% per
 
 ### How is APY calculated?
 
-We calculate APY by annulizing (52 weeks) this weeks performance. Please refer [here](https://www.notion.so/ribbonfinance/How-is-APY-calculated-fb514d774da64ba09b4847e88bfcae81) for a breakdown.&#x20;
+We calculate APY by getting the average of the past 4 week's annualised performance:
+
+Weekly Yield = ((1+(Curr. Week’s Performance)^52)-1)\*100&#x20;
+
+Projected Yield (APY) = Average of Past 4 Week's Weekly Yield (in the money weeks are excluded)
 
 ### Are the management and performance fees included in the expected APY?
 
