@@ -1,6 +1,6 @@
 # Gauge Weight Voting
 
-The Ribbon system allows **veRBN** holders to vote how **RBN** inflation is distributed by assigning weights to each pool's "gauge"
+![](<../.gitbook/assets/Screen Shot 2022-04-15 at 1.50.46 AM.png>)The Ribbon system allows **veRBN** holders to vote how **RBN** inflation is distributed by assigning weights to each pool's "gauge"
 
 ## **Voting Rules and Information:**
 
@@ -14,9 +14,5 @@ The Ribbon system allows **veRBN** holders to vote how **RBN** inflation is dist
 Ribbon Finance multi-sig is still required to sign to establish outcomes of all Ribbon Snapshot votes, for both governance and Ribbon gauge weight votes. In almost all cases, we will vote in-line with RBN / veRBN holders. However, proposals considered to be blatant attacks damaging the protocol will not be signed for.
 {% endhint %}
 
-![](<../.gitbook/assets/IMAGE 2022-04-07 111450.jpg>)
-
-
-
-
+![](<../.gitbook/assets/Screen Shot 2022-04-15 at 1.52.32 AM.png>)
 
