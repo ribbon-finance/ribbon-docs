@@ -1,7 +1,5 @@
 # Gauge Weight Voting
 
-![](<../.gitbook/assets/Screen Shot 2022-04-15 at 1.50.46 AM.png>)The Ribbon system allows **veRBN** holders to vote how **RBN** inflation is distributed by assigning weights to each pool's "gauge"
-
 ## **Voting Rules and Information:**
 
 * Voting will be done via [Snapshot](https://snapshot.org/#/gauge.rbn.eth).
