@@ -12,5 +12,4 @@
 Ribbon Finance multi-sig is still required to sign to establish outcomes of all Ribbon Snapshot votes, for both governance and Ribbon gauge weight votes. In almost all cases, we will vote in-line with RBN / veRBN holders. However, proposals considered to be blatant attacks damaging the protocol will not be signed for.
 {% endhint %}
 
-![](<../.gitbook/assets/Screen Shot 2022-04-15 at 1.52.32 AM.png>)
-
+![](<../.gitbook/assets/Screen Shot 2022-04-15 at 1.49.38 AM (1).png>)
