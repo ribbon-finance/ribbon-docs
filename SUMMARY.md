@@ -6,9 +6,10 @@
 ## Theta Vault <a href="#products" id="products"></a>
 
 * [Introduction to Theta Vault](products/series-y-theta-vaults.md)
-* [Participating in Open Auctions](products/participating-in-open-auctions/README.md)
-  * [Participating Through Ribbon UI](products/participating-in-open-auctions/participating-through-ribbon-ui.md)
+* [Participating in Gnosis Auctions](products/participating-in-open-auctions/README.md)
   * [Participating Through Gnosis UI](products/participating-in-open-auctions/participating-through-gnosis-ui.md)
+  * [Participating Through Ribbon UI](products/participating-in-open-auctions/participating-through-ribbon-ui.md)
+* [Participating in Paradigm Auctions](products/participating-in-paradigm-auctions.md)
 
 ## User Guide
 
