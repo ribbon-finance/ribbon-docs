@@ -21,7 +21,7 @@ Currently, funds held in Theta Vaults do not generate any yield, aside from writ
 
 ## Communication Channels
 
-Discord: [discord.ribbon.finance](http://discord.ribbon.finance)
+Discord: [discord.ribbon.finance](http://discord.ribbon.finance/)
 
 GitHub: [github.com/ribbon-finance](https://github.com/ribbon-finance)
 

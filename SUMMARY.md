@@ -22,7 +22,10 @@
 * [Fee Collection and Distribution](ribbon-dao/fee-collection-and-distribution.md)
 * [Liquidity Gauges and RBN Emissions](ribbon-dao/liquidity-gauges-and-rbn-emissions.md)
 * [Gauge Weight Voting](ribbon-dao/gauge-weight-voting.md)
-* [Bribes](ribbon-dao/bribes.md)
+* [Bribes](ribbon-dao/bribes/README.md)
+  * [Guide to Boost Bribing](ribbon-dao/bribes/guide-to-boost-bribing/README.md)
+    * [For Bribers](ribbon-dao/bribes/guide-to-boost-bribing/for-bribers.md)
+    * [For veRBN Holders](ribbon-dao/bribes/guide-to-boost-bribing/for-verbn-holders.md)
 * [Upgrades](ribbon-dao/upgrades.md)
 * [FAQ](ribbon-dao/faq.md)
 

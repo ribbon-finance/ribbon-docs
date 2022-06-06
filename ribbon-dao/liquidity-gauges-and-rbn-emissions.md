@@ -38,7 +38,7 @@ If no users vote-lock any RBN (or simply don’t have any), the inflation will s
 
 Implementation details are such that a user gets the boost at the time of the last action or checkpoint. Since the voting power decreases with time, it is favorable for users to apply a boost and do no further actions until they vote-lock more tokens. However, once the vote-lock expires, everyone can “kick” the user by creating a checkpoint for that user and, essentially, resetting the user to no boost if they have no voting power at that point already.
 
-RBN lockers can delegate their boost to other addresses and in return earn yield through [bribes](bribes.md).
+RBN lockers can delegate their boost to other addresses and in return earn yield through [bribes](bribes/).
 
 #### Gauge Weight Voting
 
@@ -46,7 +46,7 @@ Users can allocate their veRBN towards one or more liquidity gauges. Gauges rece
 
 When a user applies a new weight vote, it gets applied at the start of the next epoch week. The weight vote for any one gauge cannot be changed more often than once in 10 days.
 
-RBN lockers can vote for particular gauges and in return earn yield through [bribes](bribes.md).
+RBN lockers can vote for particular gauges and in return earn yield through [bribes](bribes/).
 
 #### The Gauge Controller
 

@@ -1,6 +1,6 @@
 # Participating Through Ribbon UI
 
-## Link: [https://auction.ribbon.finance/](https://auction.ribbon.finance)
+## Link: [https://auction.ribbon.finance/](https://auction.ribbon.finance/)
 
 ## Requirements:
 

@@ -24,7 +24,7 @@ Secondly, we need to select strike prices that are far enough from today’s spo
 
 ## Technical Architecture
 
-Theta Vaults in its present design relies on [Opyn](https://opyn.co) oTokens. oTokens are ERC20 token representations of an options contract, where each of them have a strike price and expiry. Owning oTokens is functionally equivalent to owning an options contract. This gives the oToken holder the right to redeem some amount of the underlying asset if the strike price is hit.
+Theta Vaults in its present design relies on [Opyn](https://opyn.co/) oTokens. oTokens are ERC20 token representations of an options contract, where each of them have a strike price and expiry. Owning oTokens is functionally equivalent to owning an options contract. This gives the oToken holder the right to redeem some amount of the underlying asset if the strike price is hit.
 
 In order to run an options-writing strategy, the Vault needs to be able to mint and short oTokens. The Vault uses the users’ deposited funds to lock collateral into Opyn + mint oTokens, then sells them for a premium. The Vault’s collateral will be locked until the expiry of the oToken. This collateral is used to pay off oToken holders in the case that the options expire in the money.
 
@@ -55,7 +55,7 @@ The net result of this process is that the Vaults should receive premiums in ret
 
 ## Oracles
 
-Ribbon mints options using [Opyn](https://www.opyn.co) and hence inherits Opyn's oracle system for settling the options. Currently, Opyn uses [Chainlink](https://opyn.gitbook.io/opyn/#how-does-auto-exercise-work) as the oracle provider for settling the options.&#x20;
+Ribbon mints options using [Opyn](https://www.opyn.co/) and hence inherits Opyn's oracle system for settling the options. Currently, Opyn uses [Chainlink](https://opyn.gitbook.io/opyn/#how-does-auto-exercise-work) as the oracle provider for settling the options.&#x20;
 
 By using Chainlink instead of other on-chain oracles, Ribbon users are not susceptible to flashloan attacks that manipulate the price of an asset. &#x20;
 
