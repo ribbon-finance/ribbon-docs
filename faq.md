@@ -70,7 +70,7 @@ Although we do not generally offer token recovery services, we review these inst
 
 We offer two types of withdrawals:
 
-1. Instant: only applicable to funds that are deposited mid-week and have yet to be actively used in the vault. You can withdraw until Friday 10am UTC.
+1. Instant: only applicable to funds that are deposited mid-week and have not yet to be actively used in the vault. You can withdraw until Friday 10am UTC.
 2. Queued: a two-step withdrawal process. At any point in time you can submit a withdrawal (or many) to the queue and then finalise it after Friday 10am UTC.
 
 ### Are queued withdrawals subject to profit or loss of the week?
@@ -199,7 +199,7 @@ No, 2 years is the maximum lock up duration.
 
 ### Can I lock some of my RBN for different durations?
 
-In order to lock  your RBN for various durations you'll have to split them between wallets. Be mindful of your vault position(s), as you will likely lose the boost.
+In order to lock your RBN for various durations you'll have to split them between wallets. Be mindful of your vault position(s), as you will likely lose the boost.
 
 ### If I boost locking RBN but I have more than one vault position, which one takes the boost?
 
