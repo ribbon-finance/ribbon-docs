@@ -40,12 +40,39 @@ To participate in Paradigm auctions, bidders need to approve their tokens before
 
 Our swap contract (the contract used for bid settlement) addresses:
 
-* **Ethereum Mainnet: 0xf0e5c92cedd66c7985c354c35e2bc37e685b99da**
+* **Ethereum Mainnet: 0xEb8CAB2F4663247db8eAfb556F498c861bB4e161**
+* **Avalanche Mainnet: 0x15988ceA1F11D62e63bAa02B0e8B3046942983c0**
 
-![Approve Pop-Up](<../.gitbook/assets/Screenshot 2022-05-10 at 2.50.58 PM (1).png>)
+![Approve Pop-Up](<../.gitbook/assets/Screenshot 2022-07-11 at 1.29.57 PM.png>)
 
 8\. After the transaction is confirmed, you can see that the token has been labelled as approved. You can now head over to Paradigm's platform to register your wallet.
 
 ![Approved Label](<../.gitbook/assets/Screenshot 2022-05-10 at 2.59.29 PM.png>)
 
-## &#x20;
+## Multi-Sig Wallet
+
+For multi-sig wallets, you need to assign a delegate to sign on your behalf to participate in Paradigm auctions. This is because Gnosis multi-sig does not support message signing.
+
+**Note that you will also need to be registered in Paradigm's platform and there are setups required on Paradigm's platform to assign a delegate.**
+
+Follow the steps below to sign assign a delegate:
+
+1\. Head over to [https://auction.ribbon.finance/approval](https://auction.ribbon.finance/approval). You will see the following page. Click on `CONNECT WALLET`. **Connect with your multi-sig wallet, NOT your delegate wallet.**
+
+![Token Approval Page](<../.gitbook/assets/Screenshot 2022-05-10 at 2.33.40 PM.png>)
+
+2\. Ensure that you are in the correct network, either Ethereum or Avalanche C-Chain Mainnet. Note that the steps might be different if you are using another wallet.
+
+![Ensure Correct Network](<../.gitbook/assets/Screenshot 2022-05-10 at 2.43.54 PM.png>)
+
+3\. Once you are connected, you will be able to see the auction options. Choose `PARADIGM`.
+
+![Auction Selection](<../.gitbook/assets/Screenshot 2022-05-10 at 2.46.22 PM (2).png>)
+
+4\. Enter the delegate address. This is the address that will sign bids on behalf of your multi-sig.
+
+![Enter Delegate's Address](<../.gitbook/assets/Screenshot 2022-07-11 at 1.38.21 PM.png>)
+
+5\. Click `AUTHORIZE` and approve the transaction in your wallet. Now you will be able to use the delegate's wallet to bid on behalf of your multi-sig.&#x20;
+
+**Note that your delegate's wallet does not need to approve the tokens for bidding, only the multi-sig needs to approve the tokens.**
