@@ -4,19 +4,19 @@
 
 ## oToken Redemption FAQ
 
-Q: Is there a deadline for exercising oTokens?
+**Q: Is there a deadline for exercising oTokens?**
 
 A: The profits from exercising the options are locked in on expiry. There is no deadline for exercising oTokens.
 
 
 
-Q: Are oTokens cash-settled?
+**Q: Are oTokens cash-settled?**
 
 A: The oTokens are cash-settled, which means you do not need physically deliver an asset on expiry. Call options are cash-settled with the collateral asset, whereas put options are cash-settled with USDC.
 
 
 
-Q: The options expired in-the-money. Why can't I claim the collateral?
+**Q: The options expired in-the-money. Why can't I claim the collateral?**
 
 A: After the options expire at 8am UTC, there is a 1 hour dispute period for settlement. You can only claim the collateral with oTokens after 9am UTC.
 
