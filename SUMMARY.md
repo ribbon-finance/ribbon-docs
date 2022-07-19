@@ -15,6 +15,7 @@
 ## User Guide
 
 * [Transferring V2 Vault Positions](user-guide/transferring-v2-vault-positions.md)
+* [Redeeming oTokens](user-guide/redeeming-otokens.md)
 
 ## Ribbon DAO
 

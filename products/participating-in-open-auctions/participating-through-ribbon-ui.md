@@ -11,7 +11,7 @@
 
 #### 1. Live auction will be featured at the top in the Ribbon Auction UI
 
-![Live Auction](<../../.gitbook/assets/image (4).png>)
+![Live Auction](<../../.gitbook/assets/image (4) (1).png>)
 
 #### 2. If you are already at a specific auction’s page, you can also see its live status
 
@@ -25,7 +25,7 @@
 
 #### 5. Before placing a bid, you need to approve the Gnosis Auction contract to spend your ERC20 tokens. You only need to do this once for each chain\*
 
-![Approval](<../../.gitbook/assets/image (6).png>)
+![Approval](<../../.gitbook/assets/image (6) (1).png>)
 
 #### 6. Afterwards, you can start placing your bids
 
