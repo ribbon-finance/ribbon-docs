@@ -19,7 +19,7 @@ However, since Pyth is not live on Ethereum yet, we are relying on a stopgap sol
 
 Ribbon's vaults writes options that are collateralized with liquid staking derivative tokens such as wstETH (Wrapped Staked ETH) and rETH (Rocket Pool ETH).
 
-There are some core differences between how settlement price is computed for these options. How the settlement price is computed is as below:
+There are some core differences for how settlement price is calculated for these options. How the settlement price is calculated is as below:
 
 1. We figure out how much stETH each wstETH can be unwrapped for.
 2. We treat 1 stETH as 1 ETH from a price perspective.
