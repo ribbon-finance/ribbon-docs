@@ -5,11 +5,11 @@
 
 ## Theta Vault
 
-* [Introduction to Theta Vault](theta-vault/theta-vault.md)
-* [Participating in Gnosis Auctions](theta-vault/participating-in-open-auctions/README.md)
-  * [Participating Through Gnosis UI](theta-vault/participating-in-open-auctions/participating-through-gnosis-ui.md)
-  * [Participating Through Ribbon UI](theta-vault/participating-in-open-auctions/participating-through-ribbon-ui.md)
-* [Participating in Paradigm Auctions](theta-vault/participating-in-paradigm-auctions.md)
+* [Introduction to Theta Vault](products/series-y-theta-vaults.md)
+* [Participating in Gnosis Auctions](products/participating-in-open-auctions/README.md)
+  * [Participating Through Gnosis UI](products/participating-in-open-auctions/participating-through-gnosis-ui.md)
+  * [Participating Through Ribbon UI](products/participating-in-open-auctions/participating-through-ribbon-ui.md)
+* [Participating in Paradigm Auctions](products/participating-in-paradigm-auctions.md)
 * [Options Settlement](theta-vault/options-settlement.md)
 
 ## User Guide

@@ -9,8 +9,6 @@ After a few improvements and learnings, we have decided to use [Pyth's](https://
 * Chainlink's data source is not designed to be used for expiries because it uses data sources such as aggregators (CoinGecko or CoinMarketCap) which are often delayed.
 * Pyth provides a more accurate view of the price data due to how it fetches real-time price data from exchanges.
 
-
-
 However, since Pyth is not live on Ethereum yet, we are relying on a stopgap solution for bringing over Pyth price data onto Ethereum. The settlement process is detailed below:
 
 1. If the option expires out-the-money, we do not do anything. The Chainlink price is used for settlement by default.

@@ -1,4 +1,4 @@
-# Participating in Open Auctions
+# Participating in Gnosis Auctions
 
 ## Overview
 
