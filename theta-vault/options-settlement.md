@@ -23,7 +23,7 @@ There are some core differences for how settlement price is calculated for these
 
 1. We figure out how much stETH each wstETH can be unwrapped for.
 2. We treat 1 stETH as 1 ETH from a price perspective.
-3. We set the expiry price to `price of ETH * wstETH exchange rate`
+3. We set the expiry price to the price of ETH.
 
 #### Example
 
