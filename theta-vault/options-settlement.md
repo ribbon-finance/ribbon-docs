@@ -31,3 +31,8 @@ We have an ETH $2000 call option. For this example, we will be collateralizing t
 
 In the case of wstETH, 0.2 wstETH can be claimed at expiry. However, 0.2 wstETH can only be traded for 0.19 ETH on liquidity pools like Curve, which means the option holder would have 5% less profits if they swapped back to ETH after claiming.
 
+The implications for this are:
+
+* wstETH options have the same payoff calculation as a regular ETH option, except the collateral received is wstETH, which is unwrapped for stETH.
+* This means if stETH is trading 5% below the value of ETH, the amount returned from exercising the option is 5% less.
+
