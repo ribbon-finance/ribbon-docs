@@ -46,7 +46,7 @@
 
 * [Contribute](additional-resources/contribute.md)
 * [Ribbon Webapp](https://app.ribbon.finance)
-* [Discord](https://discord.com/invite/85gcVafPyN)
+* [Discord](https://discord.com/invite/ribbon-finance)
 * [Twitter](https://twitter.com/ribbonfinance)
 * [GitHub](https://github.com/ribbon-finance/structured-products)
 * [Blog](https://ribbonfinance.medium.com/)
