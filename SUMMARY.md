@@ -3,6 +3,16 @@
 * [Introduction to Ribbon](README.md)
 * [FAQ](faq.md)
 
+## User Guides
+
+* [How to deposit](user-guides/how-to-deposit.md)
+* [How to withdraw](user-guides/how-to-withdraw.md)
+* [How to pause and resume](user-guides/how-to-pause-and-resume.md)
+* [How to stake, unstake vault shares and claim rewards](user-guides/how-to-stake-unstake-vault-shares-and-claim-rewards.md)
+* [How to lock RBN, boost and claim protocol revenues](user-guides/how-to-lock-rbn-boost-and-claim-protocol-revenues.md)
+* [Transferring V2 Vault Positions](user-guides/transferring-v2-vault-positions.md)
+* [Redeeming oTokens](user-guides/redeeming-otokens.md)
+
 ## Theta Vault
 
 * [Introduction to Theta Vault](products/series-y-theta-vaults.md)
@@ -11,11 +21,6 @@
   * [Participating Through Ribbon UI](products/participating-in-open-auctions/participating-through-ribbon-ui.md)
 * [Participating in Paradigm Auctions](products/participating-in-paradigm-auctions.md)
 * [Options Settlement](theta-vault/options-settlement.md)
-
-## User Guide
-
-* [Transferring V2 Vault Positions](user-guide/transferring-v2-vault-positions.md)
-* [Redeeming oTokens](user-guide/redeeming-otokens.md)
 
 ## Ribbon DAO
 
