@@ -4,13 +4,13 @@ In this guide you will find instructions for the governance portal functions rel
 
 Here’s the link to the governance portal: [https://vote.ribbon.finance](https://www.google.com/url?q=https://vote.ribbon.finance\&sa=D\&source=editors\&ust=1662914326368235\&usg=AOvVaw1kz6256urVgtQlA\_3es8FN)
 
-One important thing you need to keep in mind: locking, as you will read, gives you significant benefits but it’s quite different from staking. When you stake your vault shares, as illustrated in this guide, you are free to come and go whenever you want but when you lock your RBN you must respect the lockup date, otherwise you’ll incur a severe exit penalty. In addition, unlike vault shares and staked vault shares, veRBN are not transferable.
+One important thing you need to keep in mind: locking, as you will read, gives you significant benefits but it’s quite different from staking. When you stake your vault shares, as illustrated in [this guide](../theta-vault/how-to-stake-unstake-vault-shares-and-claim-rewards.md), you are free to come and go whenever you want but when you lock your RBN you must respect the lockup date, otherwise you’ll incur a severe exit penalty. In addition, unlike vault shares and staked vault shares, veRBN are not transferable.
 
 You can get the most out of combining the two, staking + locking, because of the rewards boost. veRBN will also give you a percentage of protocol revenues, paid weekly in ETH.
 
 ## Connect your wallet <a href="#h.hf5hlm9dkqrg" id="h.hf5hlm9dkqrg"></a>
 
-Please refer to the first section of [this guide](how-to-deposit.md#connect-your-wallet) if you need help connecting your wallet. The locking mechanism is only available on ETH mainnet.
+Please refer to the first section of [this guide](../theta-vault/how-to-deposit.md#connect-your-wallet) if you need help connecting your wallet. The locking mechanism is only available on ETH mainnet.
 
 ## Lock your RBN <a href="#h.ig30e2hrjp4j" id="h.ig30e2hrjp4j"></a>
 
@@ -81,7 +81,7 @@ Once you are ready to boost, from the staking page go to the vault card you inve
 
 Before you continue, though, know that even claiming some rewards will get the boost application. So freely choose whichever mode you prefer between the two:
 
-1. If you want to claim (and boost), follow the instructions in [this guide](how-to-stake-unstake-vault-shares-and-claim-rewards.md#h.z3a4mqkzsslw);
+1. If you want to claim (and boost), follow the instructions in [this guide](../theta-vault/how-to-stake-unstake-vault-shares-and-claim-rewards.md#h.z3a4mqkzsslw);
 2. If you simply want to apply the boost without claim, select it and confirm the transaction.
 
 <figure><img src="https://lh4.googleusercontent.com/QBLss0ndHk3Qrzp5T1_f1wDm4vRQuzCSiOXbDlsG4K4mpBg1hrZ4BuEIKMk_-UWBQyAEB7q0mXr1Rb8baLfpJsyCYq93nM9ba3uJBOUMYLkWv6vGBonXhUeVFQ6uT6oCqiWAbhu3l80arYIbivfHgseIoXjh0Jx7pB20st5ZZdEZmlsoLN0PVp5mXA" alt=""><figcaption></figcaption></figure>
@@ -96,7 +96,7 @@ Please notice that your boost will decrease over time, just as your veRBN will d
 
 ## Claim your revenues <a href="#h.9mbhws6xtji5" id="h.9mbhws6xtji5"></a>
 
-Your veRBN entitle you to receive a percentage of the protocol fees, paid weekly in ETH. You also receive a portion of the RBN that were taken as penalties from early unlockers.
+Your veRBN entitle you to receive a percentage of all the protocol fees, paid weekly in ETH. You also receive a portion of the RBN that were taken as penalties from early unlockers.
 
 The distribution day for protocol revenues is Friday. Remember, however, that the first week, the week in which you make the lock, you will not receive anything: you will be able to get your first revenues starting from the second week and their amount will also contain those of the first week, for the actual lock days only.
 

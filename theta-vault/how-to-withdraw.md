@@ -10,7 +10,7 @@ Please keep in mind that in order to withdraw, your funds in the vault must NOT 
 There are two types of withdrawals, every detail of which you will find in this guide:
 
 1. Instant: only applicable to funds that are deposited mid-week and have yet to be actively used in the vault or recently resumed positions;
-2. Standard: a two-step process. At any point in time you can submit a withdrawal (or many) to the queue and then finalize it after the weekly rollover.
+2. Standard: a two-step process. At any point in time you can submit a withdrawal (or many) to the queue and then finalize it after the weekly rollover. A standard withdrawal is also the only form of withdrawal you can use for paused or deprecated vaults; in these cases, please reach out on Discord because action on our part is required.
 
 ## Connect your wallet <a href="#h.hf5hlm9dkqrg" id="h.hf5hlm9dkqrg"></a>
 

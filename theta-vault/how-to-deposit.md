@@ -39,7 +39,7 @@ If this is the first time you are depositing a particular asset on Ribbon, the d
 Some vaults accept two assets equally:
 
 * STETH-THETA: you can deposit both ETH and stETH; if you deposit ETH, the vault will convert them to stETH at market values on Curve;
-* RETH-THETA: you can deposit both ETH and rETH; if you deposit ETH, please remember that you have to do it at least 24 hours before the weekly auction;
+* RETH-THETA: you can deposit both ETH and rETH; if you deposit ETH;
 * SAVAX-THETA: you can deposit both Avax and sAvax.
 
 A very important note about these three vaults: the moment you deposit ETH and AVAX, they will be immediately converted to stETH, rETH or sAVAX. Therefore, it will no longer be possible to withdraw ETH and AVAX again but only staked tokens.

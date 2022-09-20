@@ -1,73 +1,56 @@
-# Introduction to Theta Vault
-
-Theta Vault runs are vaults that run an automated options selling strategy, which earns yield on a weekly basis through writing out of the money options and collecting the premiums.
+# Introduction to Theta Vaults
 
 ## What are Theta Vaults?
 
-Theta Vaults use the Vault terminology because it stems from the idea of depositing your assets into a vault and earning a yield on them, set-and-forget.
+Theta Vaults run an automated European options selling strategy, which earns yield on a weekly basis through writing out of the money options and collecting the premiums. We use the Vault terminology because it stems from the idea of depositing your assets into a vault and earning a yield on them.
 
-Users can simply deposit their assets into a smart contract and will automatically start running a specific options strategy. This alleviates a majority of the gas problems by socializing the gas costs across all the vault depositors. Instead of doing 3–4 transactions per week per user, the vault will do 3–4 transactions per week for thousands of users at once. This makes the user experience of using these Theta Vaults extremely straightforward and relatively cheap — deposit, wait for yields, and withdraw.
+Users can simply deposit and the vaults will automatically start running a specific option strategy. This alleviates a majority of the gas problems by socializing the gas costs across all the vault depositors: instead of doing 3–4 transactions per week per user, the vault will do 3–4 transactions per week for thousands of users at once. This makes the user experience of using these Theta Vaults extremely straightforward and relatively cheap.
 
-## What is a Covered Call strategy?
+Theta Vaults also allow you to choose when to participate or not to participate in the weekly strategy through a [pause and resume](../theta-vault/how-to-pause-and-resume.md) function, so that you do not limit your usage options in relation to your market expectations.
 
-The covered call strategy is a unique options strategy where you earn yield for selling _potential upside_ of an asset. For example, if you are willing to give up potential upside of ETH going above $25k by the end of the year, you can get paid 2% in yield for selling a $25k call option. This is over 10x the yield you can earn by supplying ETH on Compound.
+There are two vault types currently active:
 
-In the unlikely case that ETH goes to $30k, you would have given up $5k, but you are still tremendously up in USD terms — it is a win-win scenario for you because you only risk getting exercised when ETH absolutely moons.
-
-![Payoff diagram for a covered call strategy.](../.gitbook/assets/1\_d4vypmerhnzg15ncsry4la.png)
+1. [Covered call selling](https://www.investopedia.com/terms/c/coveredcall.asp): each week the vault issues [OTM (out of the money)](https://www.investopedia.com/terms/o/outofthemoney.asp) call options on all deposits.
+2. [Put selling](https://www.investopedia.com/terms/p/putoption.asp): each week the vault issues OTM put options on all deposits.
 
 ## Strike Selection and Expiry <a href="#377c" id="377c"></a>
 
-To further reduce the risk of our options getting exercised, we can sell call options that expire sooner rather than later, because of how difficult it is to predict how ETH could perform over a longer time frame. Our initial vaults will sell _weekly_ call options, meaning we can adjust our expectation of ETH’s price on a weekly basis. This also has the nice side effect of letting us compound our premiums more frequently.
+Strikes are selected by an [algorithm](https://github.com/ribbon-finance/rvol) at the last minute before the corresponding option auction. The pricing parameter is fixed and is 10 [delta](https://www.investopedia.com/terms/d/delta.asp), so there is no direct relationship between the spot price of collateral and the strike; the key element is volatility.
 
-Secondly, we need to select strike prices that are far enough from today’s spot price to reduce the risk of exercise. Our current methodology for strike selection and backtests show that we only get exercised less than 5% of the time from Jan 2020 to today, even throughout the entire run up of ETH from $80 to $2000.
+The strike calculation algorithm is based on the [Black\&Scholes model](https://www.investopedia.com/terms/b/blackscholes.asp), with appropriate adjustments. [Historical volatility](https://www.investopedia.com/terms/h/historicalvolatility.asp) is derived from Uniswap while [implied volatility](https://www.investopedia.com/terms/i/iv.asp) is determined by a proprietary closed source algorithm; it uses the 10 delta IV from Deribit for ETH/BTC while for alts there's a custom algorithm to set it. The whole model, although developed for onchain use, is executed offchain both because it is gas intensive and because it is of impractical use due to potential rounding errors and the auctions timeframe.
 
-## Technical Architecture
+To further reduce the risk of the options getting exercised, Theta vaults sell _weekly_ call options, meaning we can adjust our expectation of ETH’s price on a weekly basis. This also has the positive side effect of letting us compound our premiums more frequently.
+
+## Options Architecture
 
 Theta Vaults in its present design relies on [Opyn](https://opyn.co/) oTokens. oTokens are ERC20 token representations of an options contract, where each of them have a strike price and expiry. Owning oTokens is functionally equivalent to owning an options contract. This gives the oToken holder the right to redeem some amount of the underlying asset if the strike price is hit.
 
 In order to run an options-writing strategy, the Vault needs to be able to mint and short oTokens. The Vault uses the users’ deposited funds to lock collateral into Opyn + mint oTokens, then sells them for a premium. The Vault’s collateral will be locked until the expiry of the oToken. This collateral is used to pay off oToken holders in the case that the options expire in the money.
 
-To facilitate the week-by-week operations of Theta Vaults, there is a privileged role called the Manager. The Manager is responsible for:
+Opyn options are [cash settled](https://www.investopedia.com/terms/c/cash-settled-options.asp), so if the options expire ITM, there is no transfer of the underlying: the difference between the strike and the market price at expiry will be compensated by liquidating part of the deposits.
 
-1. Selecting the parameters of the oToken to mint i.e. strike price and expiry.
-2. Signing oToken sales OTC on behalf of the Theta Vault
+Also, Opyn options self exercise at expiry if ITM. In these docs you'll find more details about [settlement](../theta-vault/options-settlement.md) and [redeeming](../theta-vault/redeeming-otokens.md).
 
-In collaboration with option market makers, below is a diagram of how an options sale is conducted:
+## Auctions
 
-![Theta Vault Options Sale](../.gitbook/assets/theta-vault-architecture-2-.png)
+After an initial period of public auctions on Gnosis, we have partnered with [Paradigm](https://www.paradigm.co/) to bring the auctions to their platform and achieve more favorable execution for vault depositors. If you want to participate, take a look at [this section](../theta-vault/how-to-participate-in-paradigm-auctions.md).
 
-1. Theta Vault mints oTokens\
-   ****a) The manager selects an oToken to mint based on the parameters of strike price and expiry.\
-   b) Vault uses deposited funds to lock collateral into Opyn protocol\
-   c) Vault mints oToken and holds onto these oTokens
-2. Initiating oToken trade\
-   a) Manager and market makers decide on a price to sell the oTokens for (off-chain)\
-   b) Manager signs an Airswap order that exchanges the oTokens for WETH on behalf of the Theta Vault\
-   b) Manager sends the signed order to a market maker (off-chain)
-3. Completing oToken trade\
-   a) Market maker counter-signs the order and posts the trade on the blockchain\
-   b) The swap is completed, Vault receives premium in WETH whereas the market maker receives the oTokens
+Among the main reasons for the change is a structural limitation of Gnosis: it clears at the _lowest_ possible price where demand meets supply. This means that if A is willing to buy half the supply for $10, and B is willing to buy the other half at $9, the entire auction will clear at $9.
 
-The net result of this process is that the Vaults should receive premiums in return for writing the oTokens. This will mean that the Vault’s balance will expand over time as premiums are collected and compounded.
+Using the Paradigm system, we are able to run [blind auctions](https://en.wikipedia.org/wiki/First-price\_sealed-bid\_auction), in all-or-nothing format. This helps to create more price competition between bidders and reduce gaming of the on-chain auction system, ultimately leading to better pricing.
 
+For an in-depth analysis of the auctions, you can check this [Ribbon Research post](https://www.research.ribbon.finance/blog/ribbon-auction-performance-analysis).
 
+As a fee structure, 4bps of the notional volume done by Ribbon go to Paradigm.
 
-1.  Theta Vault mints oTokens
+## Risk profile
 
-    a)&#x20;
+The primary risk for running the covered call strategy and put selling is that the vault may incur a weekly loss in the case where the call options sold by the vault expire in-the-money (meaning the price of collateral is above -calls- or below -puts- the strike price of the call options minted by the vault).
 
-    b) Vault uses deposited funds to lock collateral into Opyn protocol
+## Fees
 
-    c) Vault mints oToken and holds onto these oTokens
-2. Starting an&#x20;
-3.
+The vault fee structure consists of a 2% annualised management fee and a 10% performance fee.
 
+If the weekly strategy is profitable, the weekly performance fee is charged on the premiums earned and the weekly management fee is charged on the assets managed by the vault. Please notice that the profitability is evaluated regardless of the expiry of the weekly options. In the unlikely event that the options expire ITM but the vault still makes a profit (i.e., if the weekly premium is able to absorb the loss), commissions will still be charged.
 
-
-## Oracles
-
-Ribbon mints options using [Opyn](https://www.opyn.co/) and hence inherits Opyn's oracle system for settling the options. Currently, Opyn uses [Chainlink](https://opyn.gitbook.io/opyn/#how-does-auto-exercise-work) as the oracle provider for settling the options.&#x20;
-
-By using Chainlink instead of other on-chain oracles, Ribbon users are not susceptible to flashloan attacks that manipulate the price of an asset. &#x20;
-
+If the weekly strategy is unprofitable, there are no fees charged.

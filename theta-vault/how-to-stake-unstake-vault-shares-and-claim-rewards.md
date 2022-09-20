@@ -34,7 +34,7 @@ A notice will appear about using veRBN to get your rewards boost. The meaning of
 * If you first lock your RBN and then stake your vault shares, the boost will automatically be applied to your staking rewards.
 * If you first stake your shares and then lock your RBN, you'll have to claim some rewards or select "apply boost" on the governance website to get the boosted staking rewards.
 
-For more information on boosting and veRBN check out [this guide](how-to-lock-rbn-boost-and-claim-protocol-revenues.md).
+For more information on boosting and veRBN check out [this guide](../ribbon-dao/how-to-lock-rbn-boost-and-claim-protocol-revenues.md).
 
 ![](<../.gitbook/assets/image14 (4)>)
 

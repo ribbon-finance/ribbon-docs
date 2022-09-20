@@ -1,31 +1,40 @@
 # Table of contents
 
-* [Introduction to Ribbon](README.md)
+* [Introduction to Ribbon Finance](README.md)
 * [FAQ](faq.md)
+* [Communication channels](communication-channels.md)
+* [Contribute](contribute.md)
+* [Security](security.md)
 
-## User Guides
+## Ribbon Theta Vaults <a href="#theta-vault" id="theta-vault"></a>
 
-* [How to deposit](user-guides/how-to-deposit.md)
-* [How to withdraw](user-guides/how-to-withdraw.md)
-* [How to pause and resume](user-guides/how-to-pause-and-resume.md)
-* [How to stake, unstake vault shares and claim rewards](user-guides/how-to-stake-unstake-vault-shares-and-claim-rewards.md)
-* [How to lock RBN, boost and claim protocol revenues](user-guides/how-to-lock-rbn-boost-and-claim-protocol-revenues.md)
-* [Transferring V2 Vault Positions](user-guides/transferring-v2-vault-positions.md)
-* [Redeeming oTokens](user-guides/redeeming-otokens.md)
-
-## Theta Vault
-
-* [Introduction to Theta Vault](products/series-y-theta-vaults.md)
-* [Participating in Gnosis Auctions](products/participating-in-open-auctions/README.md)
-  * [Participating Through Gnosis UI](products/participating-in-open-auctions/participating-through-gnosis-ui.md)
-  * [Participating Through Ribbon UI](products/participating-in-open-auctions/participating-through-ribbon-ui.md)
-* [Participating in Paradigm Auctions](products/participating-in-paradigm-auctions.md)
+* [Introduction to Theta Vaults](products/series-y-theta-vaults.md)
+* [Theta vaults architecture](theta-vault/ribbon-v2.md)
+* [How to deposit](theta-vault/how-to-deposit.md)
+* [How to withdraw](theta-vault/how-to-withdraw.md)
+* [How to pause and resume](theta-vault/how-to-pause-and-resume.md)
+* [How to stake, unstake vault shares and claim rewards](theta-vault/how-to-stake-unstake-vault-shares-and-claim-rewards.md)
+* [How to transfer vault positions](theta-vault/how-to-transfer-vault-positions.md)
+* [How to participate in Paradigm Auctions](theta-vault/how-to-participate-in-paradigm-auctions.md)
 * [Options Settlement](theta-vault/options-settlement.md)
+* [Redeeming oTokens](theta-vault/redeeming-otokens.md)
+
+## RIBBON EARN
+
+* [Introduction to Ribbon Earn](ribbon-earn/introduction-to-ribbon-earn.md)
+
+## ribbon treasury
+
+* [Introduction to Ribbon Treasury](ribbon-treasury/introduction-to-ribbon-treasury.md)
+
+## RIBBON LEND
+
+* [Introduction to Ribbon Lend](ribbon-lend/introduction-to-ribbon-lend.md)
 
 ## Ribbon DAO
 
-* [Overview](ribbon-dao/overview.md)
-* [Token Distribution](ribbon-dao/token-distribution.md)
+* [Overview and RBN distribution](ribbon-dao/overview-and-rbn-distribution.md)
+* [How to lock RBN, boost and claim protocol revenues](ribbon-dao/how-to-lock-rbn-boost-and-claim-protocol-revenues.md)
 * [Vote-Escrowed RBN](ribbon-dao/vote-escrowed-rbn.md)
 * [Fee Collection and Distribution](ribbon-dao/fee-collection-and-distribution.md)
 * [Liquidity Gauges and RBN Emissions](ribbon-dao/liquidity-gauges-and-rbn-emissions.md)
@@ -35,23 +44,8 @@
     * [For Bribers](ribbon-dao/bribes/guide-to-boost-bribing/for-bribers.md)
     * [For veRBN Holders](ribbon-dao/bribes/guide-to-boost-bribing/for-verbn-holders.md)
 * [Upgrades](ribbon-dao/upgrades.md)
-* [FAQ](ribbon-dao/faq.md)
 
 ## Developers
 
 * [Deployed Contracts](developers/contract-addresses.md)
-* [Security](developers/security.md)
 * [Ribbon Subgraph](developers/ribbon-subgraph.md)
-* [Ribbon V2](developers/ribbon-v2/README.md)
-  * [Decentralization](developers/ribbon-v2/decentralization.md)
-  * [No withdrawal fees](developers/ribbon-v2/no-withdrawal-fees.md)
-  * [Meta-Vault Strategies](developers/ribbon-v2/meta-vault-strategies.md)
-
-## Additional Resources
-
-* [Contribute](additional-resources/contribute.md)
-* [Ribbon Webapp](https://app.ribbon.finance)
-* [Discord](https://discord.com/invite/ribbon-finance)
-* [Twitter](https://twitter.com/ribbonfinance)
-* [GitHub](https://github.com/ribbon-finance/structured-products)
-* [Blog](https://ribbonfinance.medium.com/)

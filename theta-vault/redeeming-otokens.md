@@ -1,24 +1,6 @@
 # Redeeming oTokens
 
-**This is only relevant to oToken holders, which are buyers on the option auctions. Please take a look at the** [**Gnosis auction**](https://docs.ribbon.finance/products/participating-in-open-auctions) **and** [**Paradigm auction**](https://docs.ribbon.finance/products/participating-in-paradigm-auctions) **guides on how to participate.**
-
-## oToken Redemption FAQ
-
-**Q: Is there a deadline for exercising oTokens?**
-
-A: The profits from exercising the options are locked in on expiry. There is no deadline for exercising oTokens.
-
-
-
-**Q: Are oTokens cash-settled?**
-
-A: The oTokens are cash-settled, which means you do not need physically deliver an asset on expiry. Call options are cash-settled with the collateral asset, whereas put options are cash-settled with USDC.
-
-
-
-**Q: The options expired in-the-money. Why can't I claim the collateral?**
-
-A: After the options expire at 8am UTC, there is a 1 hour dispute period for settlement. You can only claim the collateral with oTokens after 9am UTC.
+_**This is only relevant to oToken holders, which are buyers on the option auctions. Please take a look at the**_ [_**Paradigm auction**_](how-to-participate-in-paradigm-auctions.md) _**guide on how to participate.**_
 
 ## How to redeem oTokens
 

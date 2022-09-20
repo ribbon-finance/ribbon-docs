@@ -30,8 +30,6 @@ By selecting it, a card will appear for confirmation. Just confirm the transacti
 
 After the transaction has been confirmed onchain, a notification will appear in the upper section. Your funds are now paused, so the vault will put them on hold starting from the following Friday.
 
-You'll notice that the UI shows a different amount of paused funds; what you actually see are your vault shares.
-
 ![](<../.gitbook/assets/image9 (6)>)![](<../.gitbook/assets/image8 (3)>)
 
 ## Resume <a href="#h.stqn8ca118g" id="h.stqn8ca118g"></a>

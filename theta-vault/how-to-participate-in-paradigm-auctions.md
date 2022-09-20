@@ -1,14 +1,14 @@
-# Participating in Paradigm Auctions
+# How to participate in Paradigm Auctions
 
 ## Requirements
 
 * `Wallet`. We support Metamask, Wallet Connect and Coinbase Wallet.
 
+### **Please note that you will also need to be registered in Paradigm's platform and there are setups required on Paradigm's platform before you can start bidding on the auctions.**
+
 ## Token Approval
 
 To participate in Paradigm auctions, bidders need to approve their tokens beforehand. Follow the instructions below to approve your tokens. The instruction below is an example if you use Metamask wallet.
-
-**Note that you will also need to be registered in Paradigm's platform and there are setups required on Paradigm's platform before you can start bidding on the auctions.**
 
 1\. Head over to [https://auction.ribbon.finance/approval](https://auction.ribbon.finance/approval). You will see the following page. Click on `CONNECT WALLET`.&#x20;
 
@@ -52,8 +52,6 @@ Our swap contract (the contract used for bid settlement) addresses:
 ## Multi-Sig Wallet
 
 For multi-sig wallets, you need to assign a delegate to sign on your behalf to participate in Paradigm auctions. This is because Gnosis multi-sig does not support message signing.
-
-**Note that you will also need to be registered in Paradigm's platform and there are setups required on Paradigm's platform to assign a delegate.**
 
 Follow the steps below to sign assign a delegate:
 

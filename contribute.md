@@ -4,7 +4,7 @@
 
 ### Governance
 
-The Ribbon Community uses [RBN tokens](https://etherscan.io/token/0x6123b0049f904d730db3c36a31167d9d4121fa6b) to govern the protocol by voting on Ribbon Governance Proposals \(RGPs\). Anyone can propose a change to the system by starting a discussion in the forum or Discord, however it requires a minimum of 62,500 RBN to create a Snapshot vote. Visit the forum and resources below to learn more.
+The Ribbon Community uses [RBN tokens](ribbon-dao/overview-and-rbn-distribution.md) to govern the protocol by voting on Ribbon Governance Proposals (RGPs). Anyone can propose a change to the system by starting a discussion in the forum or Discord, however it requires a minimum of 62,500 RBN to create a Snapshot vote. Visit the forum and resources below to learn more.
 
 * [Governance Forum](https://gov.ribbon.finance/)
 * [Snapshot Page](https://snapshot.org/#/rbn.eth)
@@ -18,4 +18,3 @@ As a community of "yield hackers", we are always open to new experiments and bet
 If the product isn't working as intended, please visit the appropriate Github repository to see if the issue already exists.
 
 If it does not exist, please create a new issue in the repository. Please include information such as your browser version, device, etc. for that project so the developers can replicate it and fix it. If the issue already exists, you can signal your support by adding a thumbs up to the existing issue or by adding helpful information.
-
