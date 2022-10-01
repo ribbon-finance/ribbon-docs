@@ -14,17 +14,17 @@ Yes, users can hedge their vault positions by buying options on Aevo. But there 
 
 Ribbon Auction participants will benefit greatly from this integration. Instead of sitting on oTokens in their wallet until expiry, market makers can use these vault positions as real positions on an exchange — giving them margin to trade more things, take profit, hedge, and so on. We think this will attract much more interest in the Ribbon Auctions and will make pricing more competitive.
 
-### Is there any more information about the custom evm rollup Aevo is built upon?
+### &#x20;
 
+​
 
+### Will
 
-### Will it be a gasless experience like dydx?
+​
 
+### Are
 
-
-### Are existing vaults going to be sold on this rollup or are they going to bridge L1 positions to this rollup?
-
-
+​
 
 ### Is the whole Ribbon going to move on the rollup (theta vaults etc)?
 
@@ -32,3 +32,4 @@ Ribbon Auction participants will benefit greatly from this integration. Instead 
 
 ### Is Aevo a KYC platform?
 
+​
