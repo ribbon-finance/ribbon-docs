@@ -1,8 +1,10 @@
 # Communication channels
 
-### [Twitter](https://twitter.com/ribbonfinance)
+### [Ribbon Twitter account](https://twitter.com/ribbonfinance)
 
-Only official Twitter account, main source of news and weekly reports on vault performance.
+### [Aevo Twitter account](https://twitter.com/aevoxyz?s=20\&t=JZxnjejSmSBJVJbF1fxTxA)
+
+Official Twitter accounts, main sources of news and weekly reports.
 
 ### [Discord](https://discord.gg/rm7h9ce3ep)
 

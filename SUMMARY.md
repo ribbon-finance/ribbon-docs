@@ -1,14 +1,27 @@
 # Table of contents
 
 * [Introduction to Ribbon Finance](README.md)
-* [FAQ](faq.md)
+* [Aevo](aevo.md)
+* [FAQ](faq/README.md)
+  * [Aevo](faq/aevo.md)
+  * [General](faq/general.md)
+  * [DOV Deposits](faq/dov-deposits.md)
+  * [DOV Withdrawals](faq/dov-withdrawals.md)
+  * [DOV Trading and options](faq/dov-trading-and-options.md)
+  * [Ribbonomics](faq/ribbonomics.md)
+* [Dune dashboards](dune-dashboards.md)
 * [Communication channels](communication-channels.md)
 * [Contribute](contribute.md)
 * [Security](security.md)
 
 ## Ribbon Theta Vaults <a href="#theta-vault" id="theta-vault"></a>
 
-* [Introduction to Theta Vaults](products/series-y-theta-vaults.md)
+* [Introduction to Theta Vaults](theta-vault/theta-vault/README.md)
+  * [Strike Selection and Expiry](theta-vault/theta-vault/strike-selection-and-expiry.md)
+  * [Options Architecture](theta-vault/theta-vault/options-architecture.md)
+  * [Auctions](theta-vault/theta-vault/auctions.md)
+  * [Risk profile](theta-vault/theta-vault/risk-profile.md)
+  * [Fees](theta-vault/theta-vault/fees.md)
 * [Theta vaults architecture](theta-vault/ribbon-v2.md)
 * [How to deposit](theta-vault/how-to-deposit.md)
 * [How to withdraw](theta-vault/how-to-withdraw.md)
@@ -21,15 +34,29 @@
 
 ## RIBBON EARN
 
-* [Introduction to Ribbon Earn](ribbon-earn/introduction-to-ribbon-earn.md)
-
-## ribbon treasury
-
-* [Introduction to Ribbon Treasury](ribbon-treasury/introduction-to-ribbon-treasury.md)
+* [Introduction to Ribbon Earn](ribbon-earn/introduction-to-ribbon-earn/README.md)
+  * [What is a twin win strategy?](ribbon-earn/introduction-to-ribbon-earn/what-is-a-twin-win-strategy.md)
+  * [Vault specifications](ribbon-earn/introduction-to-ribbon-earn/vault-specifications.md)
+  * [Risk profile](ribbon-earn/introduction-to-ribbon-earn/risk-profile.md)
+  * [Fees](ribbon-earn/introduction-to-ribbon-earn/fees.md)
 
 ## RIBBON LEND
 
-* [Introduction to Ribbon Lend](ribbon-lend/introduction-to-ribbon-lend.md)
+* [Introduction to Ribbon Lend](ribbon-lend/introduction-to-ribbon-lend/README.md)
+  * [Yields from unsecured lending](ribbon-lend/introduction-to-ribbon-lend/yields-from-unsecured-lending.md)
+  * [No lockups](ribbon-lend/introduction-to-ribbon-lend/no-lockups/README.md)
+    * [Pool status](ribbon-lend/introduction-to-ribbon-lend/no-lockups/pool-status.md)
+    * [Default](ribbon-lend/introduction-to-ribbon-lend/no-lockups/default.md)
+  * [Off-chain enforcement / credit underwriting](ribbon-lend/introduction-to-ribbon-lend/off-chain-enforcement-credit-underwriting.md)
+  * [Built-in insurance](ribbon-lend/introduction-to-ribbon-lend/built-in-insurance.md)
+  * [Fees](ribbon-lend/introduction-to-ribbon-lend/fees.md)
+
+## ribbon treasury
+
+* [Introduction to Ribbon Treasury](ribbon-treasury/introduction-to-ribbon-treasury/README.md)
+  * [Why Ribbon Treasury?](ribbon-treasury/introduction-to-ribbon-treasury/why-ribbon-treasury.md)
+  * [Partners](ribbon-treasury/introduction-to-ribbon-treasury/partners.md)
+  * [How to get involved](ribbon-treasury/introduction-to-ribbon-treasury/how-to-get-involved.md)
 
 ## Ribbon DAO
 
