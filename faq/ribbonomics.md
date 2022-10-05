@@ -2,7 +2,7 @@
 
 ### Can I stake my RBN?
 
-YES but NO, it's not staking, it's locking so be sure to understand the differences taking a look at [this guide](../ribbon-dao/how-to-lock-rbn-boost-and-claim-protocol-revenues.md). You can proceed to lock your RBN on the Governance portal: [https://vote.ribbon.finance/](https://vote.ribbon.finance/)
+YES but NO, it's not staking, it's locking so be sure to understand the differences taking a look at [this guide](../ribbon-dao/how-to-lock-rbn-boost-and-claim-protocol-revenues.md). Locking your RBN will also give you a percentage of protocol revenues, paid weekly in ETH. You can proceed to lock your RBN on the Governance portal: [https://vote.ribbon.finance/](https://vote.ribbon.finance/)
 
 ### Where can I see any details on veRBN in circulation, holders, average lock duration?
 
