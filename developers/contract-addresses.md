@@ -17,14 +17,15 @@ These are the contract addresses that are deployed to Ethereum mainnet.
 
 ### Liquidity Gauges
 
-| Contract | Code                                                                                                                    | Address                                                                                                               |
-| -------- | ----------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
-| AAVE     | [LiquidityGaugeV5.vy](https://github.com/ribbon-finance/governance/blob/main/contracts/tvl-staking/LiquidityGaugeV5.vy) | [0x98c371567b8A196518dcb4A4383387A2C7339382](https://etherscan.io/address/0x98c371567b8A196518dcb4A4383387A2C7339382) |
-| WBTC     | [LiquidityGaugeV5.vy](https://github.com/ribbon-finance/governance/blob/main/contracts/tvl-staking/LiquidityGaugeV5.vy) | [0x8913EAb16a302dE3E498BbA39940e7A55c0B9325](https://etherscan.io/address/0x8913EAb16a302dE3E498BbA39940e7A55c0B9325) |
-| stETH    | [LiquidityGaugeV5.vy](https://github.com/ribbon-finance/governance/blob/main/contracts/tvl-staking/LiquidityGaugeV5.vy) | [0x4e079dCA26A4fE2586928c1319b20b1bf9f9be72](https://etherscan.io/address/0x4e079dCA26A4fE2586928c1319b20b1bf9f9be72) |
-| ETH      | [LiquidityGaugeV5.vy](https://github.com/ribbon-finance/governance/blob/main/contracts/tvl-staking/LiquidityGaugeV5.vy) | [0x9038403C3F7C6B5Ca361C82448DAa48780D7C8Bd](https://etherscan.io/address/0x9038403C3F7C6B5Ca361C82448DAa48780D7C8Bd) |
-| rETH     | [LiquidityGaugeV5.vy](https://github.com/ribbon-finance/governance/blob/main/contracts/tvl-staking/LiquidityGaugeV5.vy) | [0x4bA4Afa8071b0a9FE3097700cdadE02DD0e16fd0](https://etherscan.io/address/0x4bA4Afa8071b0a9FE3097700cdadE02DD0e16fd0) |
-| ryvUSDC  | [LiquidityGaugeV5.vy](https://github.com/ribbon-finance/governance/blob/main/contracts/tvl-staking/LiquidityGaugeV5.vy) | [0xa8A9699161f266f7E79080ca0b65210820BE8732](https://etherscan.io/address/0xa8A9699161f266f7E79080ca0b65210820BE8732) |
+| Contract    | Code                                                                                                                    | Address                                                                                                               |
+| ----------- | ----------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
+| AAVE        | [LiquidityGaugeV5.vy](https://github.com/ribbon-finance/governance/blob/main/contracts/tvl-staking/LiquidityGaugeV5.vy) | [0x98c371567b8A196518dcb4A4383387A2C7339382](https://etherscan.io/address/0x98c371567b8A196518dcb4A4383387A2C7339382) |
+| WBTC        | [LiquidityGaugeV5.vy](https://github.com/ribbon-finance/governance/blob/main/contracts/tvl-staking/LiquidityGaugeV5.vy) | [0x8913EAb16a302dE3E498BbA39940e7A55c0B9325](https://etherscan.io/address/0x8913EAb16a302dE3E498BbA39940e7A55c0B9325) |
+| stETH       | [LiquidityGaugeV5.vy](https://github.com/ribbon-finance/governance/blob/main/contracts/tvl-staking/LiquidityGaugeV5.vy) | [0x4e079dCA26A4fE2586928c1319b20b1bf9f9be72](https://etherscan.io/address/0x4e079dCA26A4fE2586928c1319b20b1bf9f9be72) |
+| ETH         | [LiquidityGaugeV5.vy](https://github.com/ribbon-finance/governance/blob/main/contracts/tvl-staking/LiquidityGaugeV5.vy) | [0x9038403C3F7C6B5Ca361C82448DAa48780D7C8Bd](https://etherscan.io/address/0x9038403C3F7C6B5Ca361C82448DAa48780D7C8Bd) |
+| rETH        | [LiquidityGaugeV5.vy](https://github.com/ribbon-finance/governance/blob/main/contracts/tvl-staking/LiquidityGaugeV5.vy) | [0x4bA4Afa8071b0a9FE3097700cdadE02DD0e16fd0](https://etherscan.io/address/0x4bA4Afa8071b0a9FE3097700cdadE02DD0e16fd0) |
+| ryvUSDC     | [LiquidityGaugeV5.vy](https://github.com/ribbon-finance/governance/blob/main/contracts/tvl-staking/LiquidityGaugeV5.vy) | [0xa8A9699161f266f7E79080ca0b65210820BE8732](https://etherscan.io/address/0xa8A9699161f266f7E79080ca0b65210820BE8732) |
+| Ribbon Earn | [LiquidityGaugeV5.vy](https://github.com/ribbon-finance/governance/blob/main/contracts/tvl-staking/LiquidityGaugeV5.vy) | [0x9674126Ff31e5EcE36De0CF03A49351a7C814587](https://etherscan.io/address/0x9674126ff31e5ece36de0cf03a49351a7c814587) |
 
 ### Ribbon Earn
 

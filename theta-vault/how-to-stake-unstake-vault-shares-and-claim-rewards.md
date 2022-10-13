@@ -9,7 +9,7 @@ Staking your vault shares presents no risk in terms of loss in value or decrease
 The liquidity mining program is part of Ribbonomics:
 
 * The amount of RBN rewards for each vault is determined every two weeks by a gauge vote on Snapshot. Only veRBN holders are eligible to vote.
-* veRBN holders can also increase their rewards up to 2.5x times. For more information, please check this guide.
+* veRBN holders can also increase their rewards up to 2.5x times. For more information, please check [this guide](../ribbon-dao/how-to-lock-rbn-boost-and-claim-protocol-revenues.md).
 
 ## Connect your wallet <a href="#h.hf5hlm9dkqrg" id="h.hf5hlm9dkqrg"></a>
 
