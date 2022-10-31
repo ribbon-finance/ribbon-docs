@@ -71,7 +71,7 @@ Now that you have your veRBN it is time to apply the boost to your staking rewar
 
 Your boost applies to the entire wallet, so, if you have multiple vaults in staking, all positions will benefit, with varying multipliers based on the amounts of vault shares you hold.
 
-If you are targeting a specific boost value (max 2.5x), you can use the rewards calculator: go to the staking page, following this guide. Select the calculator right in the middle of the screen and you’ll be able to simulate your boosting power and the amount of veRBN you need to reach your desired outcome.
+If you are targeting a specific boost value (max 2.5x), you can use the rewards calculator: go to the staking page, following [this guide](../theta-vault/how-to-stake-unstake-vault-shares-and-claim-rewards.md). Select the calculator right in the middle of the screen and you’ll be able to simulate your boosting power and the amount of veRBN you need to reach your desired outcome.
 
 <figure><img src="https://lh4.googleusercontent.com/I3xdVQT8MFr4rgA0WvVd6300Jj-0rRo7_X_aH5kfjX6JuU-JgYbOtjpxB2_nzLtpfBAqO5X4fsICFziwg9tUwkXeVtnmY7TCSE0xgpaziJuASiOGqYYIXTyP5cy3TNu9YsQfZn8-mD3okr42hVgJKD6WGXI90Nd1T7HFm_E4EyluRro2cAtMKV-c2w" alt=""><figcaption></figcaption></figure>
 

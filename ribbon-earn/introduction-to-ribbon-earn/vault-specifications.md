@@ -1,6 +1,6 @@
 # Vault specifications
 
-* Loan Tenor 28 DAYS&#x20;
+* Loan Tenor 7 DAYS (via Ribbon Lend)&#x20;
 * Option Tenor 7 DAYS&#x20;
 * Upside Barrier 108%&#x20;
 * Downside Barrier 92%
