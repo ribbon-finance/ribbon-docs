@@ -33,6 +33,18 @@ These are the contract addresses that are deployed to Ethereum mainnet.
 | --------------- | --------------------------------------------------------------------------------------------------------------------- |
 | RibbonEarn USDC | [0x84c2b16FA6877a8fF4F3271db7ea837233DFd6f0](https://etherscan.io/address/0x84c2b16fa6877a8ff4f3271db7ea837233dfd6f0) |
 
+### Ribbon Lend
+
+| Contract            | Address                                                                                                               |
+| ------------------- | --------------------------------------------------------------------------------------------------------------------- |
+| Folkvang Pool       | [0x3CD0ecf1552D135b8Da61c7f44cEFE93485c616d](https://etherscan.io/token/0x3CD0ecf1552D135b8Da61c7f44cEFE93485c616d)   |
+| Wintermute Pool     | [0x0Aea75705Be8281f4c24c3E954D1F8b1D0f8044C](https://etherscan.io/token/0x0Aea75705Be8281f4c24c3E954D1F8b1D0f8044C)   |
+| Pool Factory        | [0x312853485a41f76f20A14f927Cd0ea676588936C](https://etherscan.io/address/0x312853485a41f76f20A14f927Cd0ea676588936C) |
+| Auction             | [0x3b383D8E92CC922539f9e9f4d64dA119e250334A](https://etherscan.io/address/0x3b383D8E92CC922539f9e9f4d64dA119e250334A) |
+| Interest Rate Model | [0x600Eee67d5ffDbb897055C03E3CCDD0ac9706C8e](https://etherscan.io/address/0x600Eee67d5ffDbb897055C03E3CCDD0ac9706C8e) |
+| Pool Beacon         | [0xc59e218828EEa3E84f38a2Cb9E02aAD9318db57a](https://etherscan.io/address/0xc59e218828EEa3E84f38a2Cb9E02aAD9318db57a) |
+|                     |                                                                                                                       |
+
 ### Ribbon Treasury
 
 | Contract              | Address                                                                                                               |
