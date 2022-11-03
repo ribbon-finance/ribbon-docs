@@ -1,6 +1,6 @@
 # Yields from unsecured lending
 
-The demand for leverage is at all-time-lows in DeFi. Lending USDC on Aave’s money market yields \~0.25% APY, which is lower than risk-free U.S. treasuries. Lending USDC on Ribbon Lend to institutional market makers currently yields 7%-10% APY organically, plus additional RBN liquidity mining incentives. These are pre-3AC rates — major CeFi lending desks have already come back online to lend to the same market makers.
+The demand for leverage is at all-time-lows in DeFi. Lending USDC on Aave’s money market yields \~1% APY; lending USDC on Ribbon Lend to institutional market makers currently yields 7%-10% APY organically, plus additional RBN liquidity mining incentives. These are pre-3AC rates — major CeFi lending desks have already come back online to lend to the same market makers.
 
 Ribbon Lend pools are permissionless, so anyone can participate. You can deposit into any available pool, based on your preferences and expectations. Therefore, you can individually choose to whom you lend your capital. Following each deposit, you will receive receipt tokens (rToken); they represent your position in a given pool and accrue that pool's interest rate on each block.
 

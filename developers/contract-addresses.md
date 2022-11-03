@@ -33,7 +33,7 @@ These are the contract addresses that are deployed to Ethereum mainnet.
 | --------------- | --------------------------------------------------------------------------------------------------------------------- |
 | RibbonEarn USDC | [0x84c2b16FA6877a8fF4F3271db7ea837233DFd6f0](https://etherscan.io/address/0x84c2b16fa6877a8ff4f3271db7ea837233dfd6f0) |
 
-### Ribbon Earn
+### Ribbon Lend
 
 | Contract            | Address                                                                                                               |
 | ------------------- | --------------------------------------------------------------------------------------------------------------------- |
