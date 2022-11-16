@@ -2,7 +2,7 @@
 
 ## What is Ribbon Lend?
 
-Ribbon Lend is a DeFi marketplace for institutional [unsecured loans](https://www.investopedia.com/terms/u/unsecuredloan.asp). Users can deposit their capital in single-borrower, insured pools, created and launched on Ribbon Lend by institutional borrowers (like Alameda, Folkvang, Wintermute, just to name a few) who have been whitelisted. Lenders can receive favorable risk-adjusted interest rates in exchange for providing liquidity, while whitelisted institutional borrowers can borrow money from a decentralized source without the need for collateral.
+Ribbon Lend is a DeFi marketplace for institutional [unsecured loans](https://www.investopedia.com/terms/u/unsecuredloan.asp). Users can deposit their capital in single-borrower, insured pools, created and launched on Ribbon Lend by institutional borrowers (like Folkvang and Wintermute, just to name a few) who have been whitelisted. Lenders can receive favorable risk-adjusted interest rates in exchange for providing liquidity, while whitelisted institutional borrowers can borrow money from a decentralized source without the need for collateral.
 
 Ribbon Lend offers the best of both worlds between TradFi and DeFi:&#x20;
 
