@@ -55,6 +55,7 @@ These are the contract addresses that are deployed to Ethereum mainnet.
 | RibbonTreasury PERP   | [0xe44eDF7aD1D434Afe3397687DD0A914674F2E405](https://etherscan.io/address/0xe44eDF7aD1D434Afe3397687DD0A914674F2E405) |
 | RibbonTreasury SPELL  | [0x42cf874bBe5564EfCF252bC90829551f4ec639DC](https://etherscan.io/address/0x42cf874bBe5564EfCF252bC90829551f4ec639DC) |
 | RibbonTreasury BADGER | [0x270F4a26a3fE5766CcEF9608718491bb057Be238](https://etherscan.io/address/0x270f4a26a3fe5766ccef9608718491bb057be238) |
+| RibbonTreasury SAMB   | [0x1e2d05bd78bd50eaa380ef71f86430ed20301bf5](https://etherscan.io/address/0x1e2d05bd78bd50eaa380ef71f86430ed20301bf5) |
 
 ### Theta Vaults v2
 
