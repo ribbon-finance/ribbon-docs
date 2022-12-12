@@ -1,6 +1,6 @@
 # Aevo
 
-### What kind of relationship will there be between Ribbon and Aevo? Will Aevo be a part of Ribbon or will it be autonomous? If it will be autonomous, will it have its own governance token?
+### What kind of relationship will there be between Ribbon and Aevo? Will Aevo be a part of Ribbon or will it be autonomous? If it will be autonomous, will it have its own governance token? Wen token?
 
 Aevo is part of the Ribbon family of products. The Ribbon team is working on both products (structured products & options exchange). At launch, the exchange will run without any token-related economics until it achieves meaningful scale.
 

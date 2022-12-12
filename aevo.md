@@ -8,4 +8,4 @@ Aevo aims to become the #1 venue to trade options on-chain. The 3 main advantage
 * Deep liquidity, by partnering with the best options trading firms in the world
 * Instant onboarding, deposit USDC from any EVM-chain
 
-### _Aevo is launching in Q4 2022! For more info, follow the official_ [_Aevo account on Twitter_](https://twitter.com/aevoxyz?s=20\&t=JZxnjejSmSBJVJbF1fxTxA)_, check out this_ [_blog post_](https://mirror.xyz/aevo.eth/XtueK0oiRozH7mNVwBdpHLNlSf9vXEV6Nsa6ivWAYfo) _and the_ [_FAQs_](faq/aevo.md)__
+### _Aevo is currently in closed beta! For more info, follow the official_ [_Aevo account on Twitter_](https://twitter.com/aevoxyz?s=20\&t=JZxnjejSmSBJVJbF1fxTxA)_, check out this_ [_blog post_](https://mirror.xyz/aevo.eth/XtueK0oiRozH7mNVwBdpHLNlSf9vXEV6Nsa6ivWAYfo) _and the_ [_FAQs_](faq/aevo.md)__

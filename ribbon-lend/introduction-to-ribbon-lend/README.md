@@ -14,3 +14,7 @@ Ribbon Lend offers the best of both worlds between TradFi and DeFi:&#x20;
 All loans in our structured products, including Ribbon Earn and new vaults, will flow into Ribbon Lend pools. This allows us to leverage our Ribbon structured products as a reliable and sizable source of lending deposits in the credit facility.&#x20;
 
 Furthermore, this allows our structured products to be redeemable on a weekly basis and potentially even on a block-by-block basis, attracting further TVL.
+
+### Zapping feature (_coming soon_)
+
+Deposits in Ribbon Lend can be made in USDC but soon we are going to release a new zapping feature, which will let users deposit USDT, DAI, FRAX, etc. into Lend. Under the hood we'll swap your stable of choice to USDC on Curve.

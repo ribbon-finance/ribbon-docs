@@ -35,6 +35,7 @@
 ## RIBBON EARN
 
 * [Introduction to Ribbon Earn](ribbon-earn/introduction-to-ribbon-earn/README.md)
+  * [Earn vaults flowchart](ribbon-earn/introduction-to-ribbon-earn/earn-vaults-flowchart.md)
   * [What is a twin win strategy?](ribbon-earn/introduction-to-ribbon-earn/what-is-a-twin-win-strategy.md)
   * [Vault specifications](ribbon-earn/introduction-to-ribbon-earn/vault-specifications.md)
   * [Risk profile](ribbon-earn/introduction-to-ribbon-earn/risk-profile.md)
