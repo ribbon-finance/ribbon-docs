@@ -28,7 +28,7 @@ Select the vault in which you have invested; the withdrawal interface is immedia
 
 <figure><img src="https://lh5.googleusercontent.com/KhuJhSgsDPrwPgeIw9FKqqAhEjdV97AIDTPYqE7RYFhBiVMUKg4nI1IzU5w24MLOBzfbBMmpfK20GAIt_-ayZRrdCPrGxiJO_BDfDwj3u3J3NjwPsGcbjStqsddV8NSk8VNP6mICSdyQ4DapHaXj4Njdsxxtz3ui9Jf3Bz9V34HLD6qsRyzl-icllA" alt=""><figcaption></figcaption></figure>
 
-![](<../.gitbook/assets/image15 (4)>)![](https://lh4.googleusercontent.com/thivd6AjoFhyZi8runzDNJQUhMStDRJKy6D6gqNJF4oTDx8mQlLNkJff2B5Y1WIPUugx642AdF8nXHbb\_LIUhevLbaRFpb6HMkMFdPIXpzoNbLJs72yNffIaz-24DJCbbJO7U6K\_4kNu5lwsSneAefBywVseHYPPWFjINJFrfpNq6pI1uMz0sU0XEQ)
+![](<../../.gitbook/assets/image15 (4)>)![](https://lh4.googleusercontent.com/thivd6AjoFhyZi8runzDNJQUhMStDRJKy6D6gqNJF4oTDx8mQlLNkJff2B5Y1WIPUugx642AdF8nXHbb\_LIUhevLbaRFpb6HMkMFdPIXpzoNbLJs72yNffIaz-24DJCbbJO7U6K\_4kNu5lwsSneAefBywVseHYPPWFjINJFrfpNq6pI1uMz0sU0XEQ)
 
 Select the amount you would like to withdraw and confirm the transaction in your wallet.
 
@@ -50,17 +50,17 @@ Before proceeding, remember that you can’t cancel a queued withdrawal, so if y
 
 Select the vault in which you have invested; the withdrawal interface is immediately available in the vault card (desktop) or appears after selecting "INVEST" (mobile). If all your funds are already used by the vault, “STANDARD” will be highlighted.
 
-<figure><img src="../.gitbook/assets/image3 (4)" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image3 (4)" alt=""><figcaption></figcaption></figure>
 
-![](<../.gitbook/assets/image6 (5)>)![](<../.gitbook/assets/image7 (6)>)
+![](<../../.gitbook/assets/image6 (5)>)![](<../../.gitbook/assets/image7 (6)>)
 
 Choose the amount to withdraw and confirm the transaction in your wallet.
 
-![](<../.gitbook/assets/image12 (4)>)![](<../.gitbook/assets/image18 (5)>)
+![](<../../.gitbook/assets/image12 (4)>)![](<../../.gitbook/assets/image18 (5)>)
 
 As usual, a notification will appear in the topmost part of the screen: your withdrawal is now queued.
 
-<figure><img src="../.gitbook/assets/image20 (5)" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image20 (5)" alt=""><figcaption></figcaption></figure>
 
 The following Friday, the vault at 8 am UTC will close the current epoch and proceed with operations to issue a new set of weekly options. After about 11 am UTC (the time is variable because it depends on the dispute time of expired options and new auctions), you can complete your withdrawal.
 
@@ -70,21 +70,21 @@ Also, an important note: the SOL vault is an exception, you only need to start t
 
 Entering the webapp you’ll immediately see a reminder.
 
-<figure><img src="../.gitbook/assets/image9 (3)" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image9 (3)" alt=""><figcaption></figcaption></figure>
 
-![](<../.gitbook/assets/image19 (1)>)
+![](<../../.gitbook/assets/image19 (1)>)
 
 As you select the relevant vault card, you will notice that the interface is automatically changed and prompts you to complete your withdrawal.
 
-<figure><img src="../.gitbook/assets/image1 (4)" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image1 (4)" alt=""><figcaption></figcaption></figure>
 
-![](<../.gitbook/assets/image16 (5)>)
+![](<../../.gitbook/assets/image16 (5)>)
 
 Continue by confirming the transaction in your wallet. In case a withdrawal valued at zero is indicated, worry not and confirm anyway.
 
 You will receive a confirmation notification at the top of the screen as your funds become available again in your wallet.
 
-![](<../.gitbook/assets/image10 (2)>)
+![](<../../.gitbook/assets/image10 (2)>)
 
 Once again, please remember that vaults containing staked tokens will only return you staked tokens. So stETH, rETH and sAVAX vaults will give you stETH, rETH and sAVAX, there’s no way to withdraw ETH or AVAX from them.
 
@@ -96,7 +96,7 @@ Go to the Etherscan/Snowtrace page of the vault in which you deposited (you will
 
 After taking note of your receipt, select the "contract" tab, then "write as proxy" and connect your wallet.
 
-![](<../.gitbook/assets/image13 (3)>)
+![](<../../.gitbook/assets/image13 (3)>)
 
 Select the function "withdrawInstantly" and write the amount you got as a deposit receipt. Finally, press write and confirm the transaction in your wallet.
 
@@ -108,15 +108,15 @@ You can also proceed to withdraw via Etherscan/Snowtrace. These steps are not po
 
 Go to the Etherscan/Snowtrace page of the vault in which you deposited (you will find the links in the vault cards) and proceed to check your vault shares: scroll down and select the "contract" tab, then "read as proxy"; select the function “shareBalances'' and paste your wallet. Copy the amount shown.
 
-![](<../.gitbook/assets/image14 (5)>)![](<../.gitbook/assets/image2 (2)>)
+![](<../../.gitbook/assets/image14 (5)>)![](<../../.gitbook/assets/image2 (2)>)
 
 Now select “Write as proxy” and connect your wallet.
 
-![](<../.gitbook/assets/image13 (3)>)![](<../.gitbook/assets/image5 (7)>)
+![](<../../.gitbook/assets/image13 (3)>)![](<../../.gitbook/assets/image5 (7)>)
 
 Call the function “initiateWithdraw” by writing the amount of your shares and selecting “Write”. You have initiated your withdrawal.
 
-![](<../.gitbook/assets/image4 (2)>)
+![](<../../.gitbook/assets/image4 (2)>)
 
 After about 11 am UTC on the following Friday, from the same Etherscan page select “Write as proxy” again and call the function “completeWithdraw”.
 

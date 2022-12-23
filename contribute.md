@@ -4,7 +4,7 @@
 
 ### Governance
 
-The Ribbon Community uses [RBN tokens](ribbon-dao/overview-and-rbn-distribution.md) to govern the protocol by voting on Ribbon Governance Proposals (RGPs). Anyone can propose a change to the system by starting a discussion in the forum or Discord, however it requires a minimum of 62,500 RBN to create a Snapshot vote. Visit the forum and resources below to learn more.
+The Ribbon Community uses [RBN tokens](ribbonomics/overview-and-rbn-tokenomics/) to govern the protocol by voting on Ribbon Governance Proposals (RGPs). Anyone can propose a change to the system by starting a discussion in the forum or Discord, however it requires a minimum of 62,500 RBN to create a Snapshot vote. Visit the forum and resources below to learn more.
 
 * [Governance Forum](https://gov.ribbon.finance/)
 * [Snapshot Page](https://snapshot.org/#/rbn.eth)

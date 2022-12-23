@@ -54,7 +54,7 @@ Please refer to the vault cards on our website as they have a step-by-step guide
 
 ### Can I buy the options written by the vaults?
 
-Yes, if you'd like to participate in our auctions, please join our Telegram [channel](https://t.me/+vzLH75fnssMxMGI1) - and access our new auctions [website](https://auction.ribbon.finance). For more information please refer to the guide [here](../theta-vault/how-to-participate-in-paradigm-auctions.md).&#x20;
+Yes, if you'd like to participate in our auctions, please join our Telegram [channel](https://t.me/+vzLH75fnssMxMGI1) - and access our new auctions [website](https://auction.ribbon.finance). For more information please refer to the guide [here](../theta-vault/user-guides/how-to-participate-in-paradigm-auctions.md).&#x20;
 
 ### I've bought some options and they are expiring ITM, do I need to do something to exercise?
 
@@ -62,7 +62,7 @@ There is no further action needed on your end as we are using Opyn V2, options s
 
 ### How can I redeem my assets if the options expire in the money?
 
-Please refer to the Opyn V2 interface [here](https://gammaportal.xyz/#/account/). Also, here's a [practical guide](../theta-vault/redeeming-otokens.md).
+Please refer to the Opyn V2 interface [here](https://gammaportal.xyz/#/account/). Also, here's a [practical guide](../theta-vault/user-guides/how-to-redeem-otokens.md).
 
 ### **Is there a deadline for exercising oTokens?**
 

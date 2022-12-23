@@ -10,31 +10,31 @@ In order for your deposit to be used by the vault starting the following week, b
 
 After entering the webapp from desktop or mobile, you will need to connect your wallet. Select the appropriate button at the top right (desktop) or bottom (mobile) to proceed.
 
-<figure><img src="../.gitbook/assets/image1 (8)" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image1 (8)" alt=""><figcaption></figcaption></figure>
 
-![](<../.gitbook/assets/image15 (8)>)
+![](<../../.gitbook/assets/image15 (8)>)
 
 A selection menu will open: the first step is to choose the network; the second is to select one of the compatible wallets.
 
-![](<../.gitbook/assets/image12 (7)>)![](<../.gitbook/assets/image8 (9)>)
+![](<../../.gitbook/assets/image12 (7)>)![](<../../.gitbook/assets/image8 (9)>)
 
 Once your wallet is connected, the app will show in the top right (desktop) or bottom (mobile) corner your address in use. It will also automatically filter only those vaults that are compatible with the network you selected. Under each vault card it will show the total of your previous investments.
 
-<figure><img src="../.gitbook/assets/image14 (8)" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image14 (8)" alt=""><figcaption></figcaption></figure>
 
-![](<../.gitbook/assets/image3 (6)>)
+![](<../../.gitbook/assets/image3 (6)>)
 
 ## Invest <a href="#h.ig30e2hrjp4j" id="h.ig30e2hrjp4j"></a>
 
 Select the vault into which you intend to deposit by clicking on its card. In the desktop version, you will immediately have the form to make the deposit, on the right side. In the mobile version you will have to select "INVEST" at the bottom of the screen.
 
-<figure><img src="../.gitbook/assets/image21 (5)" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image21 (5)" alt=""><figcaption></figcaption></figure>
 
-![](<../.gitbook/assets/image11 (6)>)
+![](<../../.gitbook/assets/image11 (6)>)
 
 If this is the first time you are depositing a particular asset on Ribbon, the deposit form will contain a request for permission to use your tokens. You need to make this transaction only at the first deposit for each asset. In case you later revoke the authorization, you will have to approve the use of tokens again at the next deposit.
 
-![](<../.gitbook/assets/image17 (6)>)
+![](<../../.gitbook/assets/image17 (6)>)
 
 Some vaults accept two assets equally:
 
@@ -44,23 +44,23 @@ Some vaults accept two assets equally:
 
 A very important note about these three vaults: the moment you deposit ETH and AVAX, they will be immediately converted to stETH, rETH or sAVAX. Therefore, it will no longer be possible to withdraw ETH and AVAX again but only staked tokens.
 
-<img src="../.gitbook/assets/image5 (8)" alt="" data-size="original"><img src="../.gitbook/assets/image18 (6)" alt="" data-size="original"><img src="../.gitbook/assets/image9 (9)" alt="" data-size="original">
+<img src="../../.gitbook/assets/image5 (8)" alt="" data-size="original"><img src="../../.gitbook/assets/image18 (6)" alt="" data-size="original"><img src="../../.gitbook/assets/image9 (9)" alt="" data-size="original">
 
 Once you have entered your deposit amount, the interface will show you a preview of the transaction. If the data is correct, all you have to do is confirm by selecting "DEPOSIT NOW" to activate the authorization prompt in your wallet.
 
-![](<../.gitbook/assets/image13 (7)>)![](https://lh3.googleusercontent.com/cySraakXp7B\_PUYTIVc8zEfSvHog23QEfCNPgoME1iJKXG8NlUtTt-0GhtSpbXdCVb1XNAKbUCgMo52DW8jqSO4Rmncw-2o8g8WAISI7fwhR6etEklW9vjqINtHaqiSWS-zXaIxkD6kfwjDZYEhYLuB2pbwxfG\_ZBLr0Pa1XzfNWwCYkPnvo78gdEQ)![](<../.gitbook/assets/image7 (9)>)
+![](<../../.gitbook/assets/image13 (7)>)![](https://lh3.googleusercontent.com/cySraakXp7B\_PUYTIVc8zEfSvHog23QEfCNPgoME1iJKXG8NlUtTt-0GhtSpbXdCVb1XNAKbUCgMo52DW8jqSO4Rmncw-2o8g8WAISI7fwhR6etEklW9vjqINtHaqiSWS-zXaIxkD6kfwjDZYEhYLuB2pbwxfG\_ZBLr0Pa1XzfNWwCYkPnvo78gdEQ)![](<../../.gitbook/assets/image7 (9)>)
 
 Once the onchain transaction is confirmed, the app will show you a notification in the top right (desktop) or top center (mobile). A reminder of your total investment will also appear in the bottom left (desktop) or bottom center (mobile).
 
-<figure><img src="../.gitbook/assets/image19 (8)" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image19 (8)" alt=""><figcaption></figcaption></figure>
 
-![](<../.gitbook/assets/image10 (8)>)
+![](<../../.gitbook/assets/image10 (8)>)
 
 Selecting the reminder will open a summary of your vault position, with the option of seeing your deposited or staked funds.
 
 Please remember that staking what you have just deposited is not possible: you will have to wait until the following Friday, when your funds will be actively used by the vault.
 
-![](<../.gitbook/assets/image2 (9)>)![](<../.gitbook/assets/image6 (8)>)
+![](<../../.gitbook/assets/image2 (9)>)![](<../../.gitbook/assets/image6 (8)>)
 
 Finally, it should be noted that the vault does not automatically issue any receipt tokens. Therefore, if you need to transfer your position to another wallet, you will need to follow the instructions [here](https://app.gitbook.com/o/-MVFqZpOAlPK2YlaTpjh/s/-MVFqgfeL1BL15YGTBdD/\~/changes/2RuXzRZnXGk0Ws6LkUB4/user-guides/transferring-v2-vault-positions).
 
@@ -74,7 +74,7 @@ If you want to check the status of your deposit in a vault, you can proceed via 
 
 Go to the Etherscan/Snowtrace page of the vault in which you deposited (you will find the links in the vault cards) and select the "contract" tab; then select "read as proxy."
 
-![](<../.gitbook/assets/image20 (6)>)
+![](<../../.gitbook/assets/image20 (6)>)
 
 Select the function "depositReceipts" and paste your address. The amount the smart contract will show you corresponds to your deposit. Please pay attention to the decimals.
 
@@ -82,4 +82,4 @@ Select the function "depositReceipts" and paste your address. The amount the sma
 
 Keep in mind that vaults for USDC have a different number of decimal places: in the example below you can see a deposit of 150 USDC.
 
-![](<../.gitbook/assets/image16 (7)>)
+![](<../../.gitbook/assets/image16 (7)>)

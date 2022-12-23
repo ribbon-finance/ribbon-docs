@@ -17,11 +17,14 @@ For more information you can check [this section](theta-vault/theta-vault/).
 
 ## Ribbon Earn
 
-The [R-Earn vault](https://app.ribbon.finance/R-EARN) employs a fully funded twin win strategy: depositors can capitalize on the intra-week ETH movements in either direction, while also ensuring their capital is protected. The vault earns a base APY and uses the remaining funding to purchase weekly [at-the-money](https://www.investopedia.com/terms/a/atthemoney.asp) [knock-out barrier options](https://www.investopedia.com/terms/k/knock-outoption.asp).&#x20;
+The [R-Earn vaults](ribbon-earn/introduction-to-ribbon-earn.md) employ fully funded strategies to capitalize on the intra-week ETH movements, while also ensuring their capital is protected. The vaults earns a base APY and uses the remaining funding to purchase weekly options.
 
-The weekly barrier options enable the vault to participate in any ETH upside up to 108% of the ETH's spot level at the start of the week (upside barrier) and any ETH downside down to 92% of ETH's spot level at the start of the week (downside barrier). However, if the price of ETH has increased or decreased by more than 8% at the end of the week, the barrier options expire worthless and the vault earns the base APY only.
+There are currently two vaults available:
 
-For more information you can check [this section](ribbon-earn/introduction-to-ribbon-earn/).
+1. Earn USDC: it employs a twin win strategy through which depositors can capitalise on the intra-week ETH movements in either direction;
+2. Earn stETH: employs dolphin strategy through which depositors can capitalise on the upside ETH movements.
+
+For more information you can check [this section](ribbon-earn/introduction-to-ribbon-earn.md).
 
 ## Ribbon Treasury
 

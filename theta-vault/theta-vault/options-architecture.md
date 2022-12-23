@@ -6,4 +6,4 @@ In order to run an options-writing strategy, the Vault needs to be able to mint 
 
 Opyn options are [cash settled](https://www.investopedia.com/terms/c/cash-settled-options.asp), so if the options expire ITM, there is no transfer of the underlying: the difference between the strike and the market price at expiry will be compensated by liquidating part of the deposits.
 
-Also, Opyn options self exercise at expiry if ITM. In these docs you'll find more details about [settlement](../options-settlement.md) and [redeeming](../redeeming-otokens.md).
+Also, Opyn options self exercise at expiry if ITM. In these docs you'll find more details about [settlement](options-settlement.md) and [redeeming](../user-guides/how-to-redeem-otokens.md).

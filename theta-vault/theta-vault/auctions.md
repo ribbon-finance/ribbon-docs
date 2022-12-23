@@ -1,6 +1,6 @@
 # Auctions
 
-After an initial period of public auctions on Gnosis, we have partnered with [Paradigm](https://www.paradigm.co/) to bring the auctions to their platform and achieve more favorable execution for vault depositors. If you want to participate, take a look at [this section](../how-to-participate-in-paradigm-auctions.md).
+After an initial period of public auctions on Gnosis, we have partnered with [Paradigm](https://www.paradigm.co/) to bring the auctions to their platform and achieve more favorable execution for vault depositors. If you want to participate, take a look at [this section](../user-guides/how-to-participate-in-paradigm-auctions.md).
 
 Among the main reasons for the change is a structural limitation of Gnosis: it clears at the _lowest_ possible price where demand meets supply. This means that if A is willing to buy half the supply for $10, and B is willing to buy the other half at $9, the entire auction will clear at $9.
 

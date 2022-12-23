@@ -1,6 +1,6 @@
 # Off-chain enforcement / credit underwriting
 
-Offering unsecured lending on-chain requires a developed off-chain process for credit underwriting (including KYC/AML) and legal recourse. As we have already done with [Ribbon Earn](../../ribbon-earn/introduction-to-ribbon-earn/), we are collaborating with [Credora](https://credora.io/).
+Offering unsecured lending on-chain requires a developed off-chain process for credit underwriting (including KYC/AML) and legal recourse. As we have already done with [Ribbon Earn](../../ribbon-earn/introduction-to-ribbon-earn.md), we are collaborating with [Credora](https://credora.io/).
 
 Credora aggregates information from custody venues, CEX spot / derivatives positions, on-chain positions across >5 chains, bank accounts, and other sources to get a comprehensive picture of a market maker’s credit worthiness. Most of this can be monitored in real-time, so a borrower’s credit worthiness can change on a minute by minute basis. This real-time info comprises \~50% of a borrower’s credit rating weight. The other \~50% are more traditional methods such as looking into borrow history and lending relationships, custody processes, ROE, ROA, max drawdowns, solvency ratio, etc. See[ Credora docs](https://credora.gitbook.io/credit-methodology/SbLmTxogePkrzsF4z9IK/credit-evaluation/credit-score) for more information on credit methodology. Credora has 16 DeFi integrations, 25 CeFi integrations, and +100 borrower/lender institutions onboarded so far. Credora has helped facilitate $785M in loans and monitors $3.85B to date.&#x20;
 

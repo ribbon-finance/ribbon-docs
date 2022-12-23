@@ -2,7 +2,7 @@
 
 1. Create a Boost proposal for a specific address at https://hiddenhand.finance/ribbon?boosts=true - click the “Create Boost Bribe” button
 
-<img src="../../../.gitbook/assets/Screen Shot 2022-06-05 at 8.36.49 PM.png" alt="" data-size="original">
+<img src="../../../../.gitbook/assets/Screen Shot 2022-06-05 at 8.36.49 PM.png" alt="" data-size="original">
 
 &#x20; 2\. Enter receiver address, and the duration of the Boost Bribe Proposal, submit the form
 

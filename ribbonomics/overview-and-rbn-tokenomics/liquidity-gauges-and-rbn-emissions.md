@@ -70,7 +70,7 @@ Currently active gauge types are as follows:
 
 ### LiquidityGauge
 
-Each pool has a unique liquidity gauge. Deployment addresses can be found in the [addresses reference](../developers/contract-addresses.md) section of the documentation.
+Each pool has a unique liquidity gauge. Deployment addresses can be found in the [addresses reference](../../developers/contract-addresses.md) section of the documentation.
 
 There are several versions of liquidity gauge contracts in use. Source code for these contracts is available on [Github](https://github.com/ribbon-finance/governance/tree/main/contracts/tvl-staking).
 

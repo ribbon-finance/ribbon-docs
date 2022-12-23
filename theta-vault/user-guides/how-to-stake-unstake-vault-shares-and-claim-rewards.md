@@ -9,7 +9,7 @@ Staking your vault shares presents no risk in terms of loss in value or decrease
 The liquidity mining program is part of Ribbonomics:
 
 * The amount of RBN rewards for each vault is determined every two weeks by a gauge vote on Snapshot. Only veRBN holders are eligible to vote.
-* veRBN holders can also increase their rewards up to 2.5x times. For more information, please check [this guide](../ribbon-dao/how-to-lock-rbn-boost-and-claim-protocol-revenues.md).
+* veRBN holders can also increase their rewards up to 2.5x times. For more information, please check [this guide](../../ribbonomics/how-to-lock-rbn-boost-and-claim-protocol-revenues.md).
 
 ## Connect your wallet <a href="#h.hf5hlm9dkqrg" id="h.hf5hlm9dkqrg"></a>
 
@@ -19,34 +19,34 @@ Please refer to the first section of [this guide](how-to-deposit.md#connect-your
 
 Select "STAKING" from the topmost menu (desktop) or by clicking on the top right menu (mobile).
 
-<figure><img src="../.gitbook/assets/image5 (5)" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image5 (5)" alt=""><figcaption></figcaption></figure>
 
-![](<../.gitbook/assets/image10 (3)>)
+![](<../../.gitbook/assets/image10 (3)>)
 
 Scroll down the page until you find your vault and select "STAKE".
 
-<figure><img src="../.gitbook/assets/image2 (1)" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image2 (1)" alt=""><figcaption></figcaption></figure>
 
-![](<../.gitbook/assets/image17 (2)>)
+![](<../../.gitbook/assets/image17 (2)>)
 
 A notice will appear about using veRBN to get your rewards boost. The meaning of the message is as follows:
 
 * If you first lock your RBN and then stake your vault shares, the boost will automatically be applied to your staking rewards.
 * If you first stake your shares and then lock your RBN, you'll have to claim some rewards or select "apply boost" on the governance website to get the boosted staking rewards.
 
-For more information on boosting and veRBN check out [this guide](../ribbon-dao/how-to-lock-rbn-boost-and-claim-protocol-revenues.md).
+For more information on boosting and veRBN check out [this guide](../../ribbonomics/how-to-lock-rbn-boost-and-claim-protocol-revenues.md).
 
-![](<../.gitbook/assets/image14 (4)>)
+![](<../../.gitbook/assets/image14 (4)>)
 
 By continuing, you'll get a form for entering the amount to be staked. Please note that the amounts you will need to enter are expressed in vault shares, not in the currency you deposited. Proceed and finally confirm the transaction in your wallet.
 
-![](<../.gitbook/assets/image19 (3)>)![](<../.gitbook/assets/image18 (2)>)![](<../.gitbook/assets/image9 (5)>)
+![](<../../.gitbook/assets/image19 (3)>)![](<../../.gitbook/assets/image18 (2)>)![](<../../.gitbook/assets/image9 (5)>)
 
 Once the transaction is confirmed onchain, a notification will appear in the upper right corner (desktop) or upper section (mobile)..
 
-<figure><img src="../.gitbook/assets/image6 (6)" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image6 (6)" alt=""><figcaption></figcaption></figure>
 
-![](<../.gitbook/assets/image1 (3)>)
+![](<../../.gitbook/assets/image1 (3)>)
 
 The page will be automatically updated with the amount of your staked position, and a few seconds later you'll be able see your first rewards accumulating.
 
@@ -56,19 +56,19 @@ The staking transaction will automatically take your receipt token (rToken) from
 
 From the staking page (see the previous section) scroll down until you find your vault and select "UNSTAKE".
 
-<figure><img src="../.gitbook/assets/image7 (7)" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image7 (7)" alt=""><figcaption></figcaption></figure>
 
-![](<../.gitbook/assets/image16 (4)>)
+![](<../../.gitbook/assets/image16 (4)>)
 
 Just input the amount of vault shares you want to unstake and confirm the transaction in your wallet.
 
-![](<../.gitbook/assets/image8 (4)>)![](<../.gitbook/assets/image15 (5)>)
+![](<../../.gitbook/assets/image8 (4)>)![](<../../.gitbook/assets/image15 (5)>)
 
 Once the transaction is confirmed onchain, a notification will appear in the upper right corner.
 
-<figure><img src="../.gitbook/assets/image11 (1)" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image11 (1)" alt=""><figcaption></figcaption></figure>
 
-![](<../.gitbook/assets/image13 (5)>)
+![](<../../.gitbook/assets/image13 (5)>)
 
 Your vault shares are now unstaked and available again.
 
@@ -80,8 +80,8 @@ From the staking page (see the staking section) scroll down until you find your 
 
 Select "CLAIM REWARDS" on the following form to get your rewards. Just remember that you can claim anytime and it doesn't matter if you are still staked or not.
 
-<figure><img src="../.gitbook/assets/image4 (4)" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image4 (4)" alt=""><figcaption></figcaption></figure>
 
-![](<../.gitbook/assets/image3 (3)>)![](<../.gitbook/assets/image12 (2)>)
+![](<../../.gitbook/assets/image3 (3)>)![](<../../.gitbook/assets/image12 (2)>)
 
 Rewards are periodically loaded into the staking contract; it may happen that sometimes they are temporarily depleted and cannot be claimed immediately. They are usually available again in 24/48 hours.

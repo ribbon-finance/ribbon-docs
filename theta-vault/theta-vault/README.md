@@ -6,7 +6,7 @@ Theta Vaults run an automated European options selling strategy, which earns yie
 
 Users can simply deposit and the vaults will automatically start running a specific option strategy. This alleviates a majority of the gas problems by socializing the gas costs across all the vault depositors: instead of doing 3–4 transactions per week per user, the vault will do 3–4 transactions per week for thousands of users at once. This makes the user experience of using these Theta Vaults extremely straightforward and relatively cheap.
 
-Theta Vaults also allow you to choose when to participate or not to participate in the weekly strategy through a [pause and resume](../how-to-pause-and-resume.md) function, so that you do not limit your usage options in relation to your market expectations.
+Theta Vaults also allow you to choose when to participate or not to participate in the weekly strategy through a [pause and resume](../user-guides/how-to-pause-and-resume.md) function, so that you do not limit your usage options in relation to your market expectations.
 
 There are two vault types currently active:
 

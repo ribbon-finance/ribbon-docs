@@ -20,35 +20,35 @@ Please refer to the first section of [this guide](how-to-deposit.md#connect-your
 
 Select the vault in which you deposited, and if your vault shares are not staked, you will notice the presence of the "PAUSE" button right near your position bar at the bottom (desktop and mobile).
 
-<figure><img src="../.gitbook/assets/image6 (4)" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image6 (4)" alt=""><figcaption></figcaption></figure>
 
-![](<../.gitbook/assets/image1 (6)>)
+![](<../../.gitbook/assets/image1 (6)>)
 
 By selecting it, a card will appear for confirmation. Just confirm the transaction in your wallet.
 
-![](<../.gitbook/assets/image3 (5)>)
+![](<../../.gitbook/assets/image3 (5)>)
 
 After the transaction has been confirmed onchain, a notification will appear in the upper section. Your funds are now paused, so the vault will put them on hold starting from the following Friday.
 
-![](<../.gitbook/assets/image9 (6)>)![](<../.gitbook/assets/image8 (3)>)
+![](<../../.gitbook/assets/image9 (6)>)![](<../../.gitbook/assets/image8 (3)>)
 
 ## Resume <a href="#h.stqn8ca118g" id="h.stqn8ca118g"></a>
 
 Select the vault in which you deposited and in which you paused funds. You will notice the presence of the "RESUME" button right near your position bar at the bottom (desktop and mobile).
 
-<figure><img src="../.gitbook/assets/image10 (1)" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image10 (1)" alt=""><figcaption></figcaption></figure>
 
-![](<../.gitbook/assets/image2 (4)>)
+![](<../../.gitbook/assets/image2 (4)>)
 
 Select it and confirm the transaction in your wallet.
 
-![](<../.gitbook/assets/image7 (3)>)![](<../.gitbook/assets/image12 (5)>)
+![](<../../.gitbook/assets/image7 (3)>)![](<../../.gitbook/assets/image12 (5)>)
 
 After the transaction has been confirmed onchain, a notification will appear in the upper section as usual. Your funds are now resumed, so the vault will use them again starting from the following Friday.
 
 In case you want to withdraw, you will have until Friday 8 am UTC to make an instant withdrawal. After that time, you will have to proceed with a standard withdrawal.  Again, if you need assistance with these last steps, have a look [here](how-to-withdraw.md#h.ig30e2hrjp4j).
 
-<figure><img src="../.gitbook/assets/image5 (6)" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image5 (6)" alt=""><figcaption></figcaption></figure>
 
 ## (optional) Pause on Etherscan <a href="#h.ejzcwg4bex7m" id="h.ejzcwg4bex7m"></a>
 
@@ -56,11 +56,11 @@ You can also pause via Etherscan/Snowtrace. These steps are not possible for vau
 
 Go to the Etherscan/Snowtrace page of the vault in which you deposited (you will find the links in the vault cards) and select the "contract" tab, then "write as proxy" and finally connect your wallet.
 
-![](<../.gitbook/assets/image11 (5)>)![](<../.gitbook/assets/image14 (3)>)
+![](<../../.gitbook/assets/image11 (5)>)![](<../../.gitbook/assets/image14 (3)>)
 
 Select the function "pausePosition" and select write.
 
-![](<../.gitbook/assets/image13 (4)>)
+![](<../../.gitbook/assets/image13 (4)>)
 
 ## (optional) Resume on Etherscan <a href="#h.98p7u0fs35v0" id="h.98p7u0fs35v0"></a>
 
@@ -73,4 +73,4 @@ Go to these addresses:
 
 From the contract tab select “Write as proxy”, connect your wallet and select the function n. 5, “resumePosition”. Paste the vault address and select “Write”.
 
-![](<../.gitbook/assets/image4 (3)>)
+![](<../../.gitbook/assets/image4 (3)>)

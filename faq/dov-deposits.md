@@ -2,7 +2,7 @@
 
 ### Where can I find assistance on deposits?
 
-[Right here!](../theta-vault/how-to-deposit.md)
+[Right here!](../theta-vault/user-guides/how-to-deposit.md)
 
 ### What is the minimum deposit for vaults?
 
@@ -12,8 +12,8 @@ There are no minimum deposits to participate in our vaults.
 
 Not immediately; you'll have to wait for the following Friday for the vault to use your deposited funds. In the meantime they will remain queued and NOT invested. And even after that, you will NOT receive vault tokens by default. You'll be able to get them in two different ways:
 
-1. manually claim them by calling maxRedeem on Etherscan, and then transfer the tokens to your wallet. Please refer to our guide [here](../theta-vault/how-to-transfer-vault-positions.md).&#x20;
-2. stake your vault position (for the eligible vaults) for RBN rewards. Please refer to our guide [here](../theta-vault/how-to-stake-unstake-vault-shares-and-claim-rewards.md).
+1. manually claim them by calling maxRedeem on Etherscan, and then transfer the tokens to your wallet. Please refer to our guide [here](../theta-vault/user-guides/how-to-transfer-vault-positions.md).&#x20;
+2. stake your vault position (for the eligible vaults) for RBN rewards. Please refer to our guide [here](../theta-vault/user-guides/how-to-stake-unstake-vault-shares-and-claim-rewards.md).
 
 ### Do I have to confirm and redo my deposits every week?
 
