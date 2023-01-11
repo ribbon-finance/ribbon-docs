@@ -6,13 +6,13 @@ _**This is only relevant to oToken holders, which are buyers on the option aucti
 
 The process of redeeming collateral with oToken is not automatic and requires the holder to spend gas to claim the profits.
 
-We can use the webapp developed by the Opyn team to access oTokens - [Gamma Portal](https://gammaportal.xyz/#/account).
+To access your oTokens and claim, go to this website - [Ribbon Option Portal](https://option-portal.ribbon.finance/#/).
 
 First, connect your wallet to the website. This portal site allows oToken holders to see a list of options a Metamask wallet holds:
 
 ![Gamma Portal shows an account's oToken balance.](<../../.gitbook/assets/image (6).png>)
 
-To make sure you are viewing the correct account page, check that the URL matches what the account connected to the page on the top left. E.g. `https://gammaportal.xyz/#/account/ADDRESS`
+To make sure you are viewing the correct account page, check that the URL matches what the account connected to the page on the top left. E.g. `https://option-portal.ribbon.finance/#/account/ADDRESS`
 
 ![](<../../.gitbook/assets/Screenshot 2022-07-19 at 7.14.40 PM.png>)
 
