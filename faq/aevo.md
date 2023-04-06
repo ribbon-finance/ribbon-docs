@@ -6,7 +6,7 @@ Aevo is part of the Ribbon family of products. The Ribbon team is working on bot
 
 Eventually, Aevo will be integrated with Ribbon as the venue where Ribbon’s options contracts settle. This means that Ribbon Vaults can drive _consistent flow_ to Aevo (currently \~$80m a week), and Aevo can allow for much more sophisticated vault structures to be built on top — a perfect harmony of vault + exchange.
 
-### If I am a vault depositor do I get any advantages by using Aevo (e.g. can I edge my positions)?
+### If I am a vault depositor do I get any advantages by using Aevo (e.g. can I hedge my positions)?
 
 Yes, users can hedge their vault positions by buying options on Aevo. But there are more potential developments! For example, Ribbon users’ funds may no longer need to be locked up from a week-to-week basis. They can exit their vault position anytime by simply closing the position on the exchange. Users will also be able to take profit on or cut losses on their vault positions, since there will be a venue with high liquidity to trade these positions.
 
