@@ -8,4 +8,4 @@ We think this makes it a perfect product for DAO treasuries for multiple reasons
 2. Instead of selling tokens on the open market to **diversify the treasury**, DAOs could sell covered calls on their native asset and collect the premiums in stables;
 3. DAOs are **well suited to sell upside volatility in their own native token** in exchange for cash today. In the case that the token is flat or down, the DAO would have collected premiums for free. In the case that the token goes up significantly, the DAO would have given up some of that upside — which is totally reasonable risk-reward for a DAO that already owns significant amounts of the native token.
 
-## ****
+##

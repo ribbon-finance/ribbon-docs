@@ -5,7 +5,7 @@
 <figure><img src="../.gitbook/assets/1663452578-picsay.jpg" alt=""><figcaption></figcaption></figure>
 
 1. User deposits 100 ETH into T-ETH-C (ETH call).
-2. On Friday 8 am UTC, the vault closes the previous week roound and subsequently uses 100% of its funds to mint 100 [otokens](https://opyn.gitbook.io/opyn/contracts/otoken), which are ERC20 representations of options contracts. The 100 ETH is locked for a week in Opyn.
+2. On Friday 8 am UTC, the vault closes the previous week round and subsequently uses 100% of its funds to mint 100 [otokens](https://opyn.gitbook.io/opyn/contracts/otoken), which are ERC20 representations of options contracts. The 100 ETH is locked for a week in Opyn.
 3. After receiving the 100 otokens, the vault puts it up for auction on [Paradigm](user-guides/how-to-participate-in-paradigm-auctions.md).
    * Registered users can participate and bid on the otokens. They pay the premiums for the otoken in ETH. Paradigm can use different kinds of auctions to maximise depositors' returns (e.g. [blind auctions](https://en.wikipedia.org/wiki/First-price\_sealed-bid\_auction))
    * At the end of the auction, the vault collects 1 ETH in premiums in the form of ETH.

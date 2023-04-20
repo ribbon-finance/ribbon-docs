@@ -11,6 +11,6 @@ Ribbon Treasury are private Ribbon [Theta vaults](../../theta-vault/theta-vault/
 * **Premium Currency**\
   DAOs can also choose what currency they want to receive the premiums in. For example, a DAO could elect to receive premiums in USDC or ETH, depending on their treasury diversification goals.
 
-## ****
+##
 
 ##

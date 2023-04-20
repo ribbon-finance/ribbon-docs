@@ -2,8 +2,7 @@
 
 * Option Tenor 7 DAYS
 * Upside Barrier 110%
-* Downside Barrier 90%
-* Strike 100%
+* Strike 90%
 * Capital Protection 99.5%
 * Base APY 0.75%
 * Max APY 14.92%

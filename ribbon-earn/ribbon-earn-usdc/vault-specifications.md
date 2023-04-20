@@ -1,12 +1,11 @@
 # Vault specifications
 
-* Loan Tenor 7 DAYS (via Ribbon Lend)&#x20;
-* Option Tenor 7 DAYS&#x20;
-* Upside Barrier 108%&#x20;
-* Downside Barrier 92%
-* Strike 100%&#x20;
-* Capital Protection 100%&#x20;
-* Base APY 4.00%&#x20;
-* Barrier Type EUROPEAN (OBSERVED AT MATURITY)
-
-##
+* Option Tenor: 7 DAYS&#x20;
+* Upside Barrier: variable (10 delta)
+* Downside Barrier: variable (10 delta)&#x20;
+* Strike Price: 100%
+* Capital Protection: 100%&#x20;
+* Base APY: 2.00%&#x20;
+* Max APY: 9.91%&#x20;
+* Barrier Type: EUROPEAN (OBSERVED AT MATURITY)&#x20;
+* bIB01 Allocation: 100%

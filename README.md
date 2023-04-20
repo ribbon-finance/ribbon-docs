@@ -41,6 +41,8 @@ For more information you can check [this section](broken-reference).
 
 ## Ribbon Lend
 
+#### \*\*\*Ribbon Lend is currently paused until further notice\*\*\*
+
 Ribbon Lend can be described as an uncollateralized Aave, allowing depositors to lend unsecured to KYC/AML’d institutional market makers of their choosing with high liquidity. Ribbon Lend offers the best of both worlds between TradFi and DeFi:
 
 * High yields from unsecured lending
