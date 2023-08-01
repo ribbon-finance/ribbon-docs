@@ -4,4 +4,4 @@
 
 Aevo aims to become the #1 venue to trade options on-chain.
 
-### _AEVO has launched! Check out www.aevo.xyz_
+### _AEVO has launched! Check out_ [_www.aevo.xyz_](https://www.aevo.xyz)
