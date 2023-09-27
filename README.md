@@ -2,7 +2,7 @@
 
 [Ribbon Finance](https://app.ribbon.finance/) is a suite of DeFi protocols that help users access crypto structured products. By combining derivatives, lending and a proprietary [on-chain options exchange (Aevo)](aevo.md), Ribbon aims to be the one-stop solution for users who want to improve a portfolio's risk-return profile.
 
-Here you can find the products descriptions and [outgoing links](communication-channels.md) to the different communication channels, where you can reach out to the Team and Community.
+Here you can find the products descriptions and [outgoing links](broken-reference) to the different communication channels, where you can reach out to the Team and Community.
 
 ## Theta Vaults (DOVs)
 

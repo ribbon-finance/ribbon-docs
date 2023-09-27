@@ -2,11 +2,7 @@
 
 Each pool is characterized by a utilization status, based on the utilization rate:
 
-| Utilization rate | Pool Status         | Time Limit                      |
-| ---------------- | ------------------- | ------------------------------- |
-| <95%             | Active              | ꝏ                               |
-| >95%             | Warning             | Until utilization = 99% or <95% |
-| 99%              | Provisional Default | 120 Hours                       |
+<table><thead><tr><th width="162">Utilization rate</th><th width="150">Pool Status</th><th>Time Limit</th></tr></thead><tbody><tr><td>&#x3C;95%</td><td>Active</td><td>ꝏ</td></tr><tr><td>>95%</td><td>Warning</td><td>Until utilization = 99% or &#x3C;95%</td></tr><tr><td>99%</td><td>Provisional Default</td><td>120 Hours</td></tr></tbody></table>
 
 Each status corresponds to possible actions by lenders and borrowers:
 

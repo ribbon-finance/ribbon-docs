@@ -9,7 +9,6 @@
   * [DOV Trading and options](faq/dov-trading-and-options.md)
   * [Ribbonomics](faq/ribbonomics.md)
 * [Dune dashboards](dune-dashboards.md)
-* [Communication channels](communication-channels.md)
 * [Contribute](contribute.md)
 * [Security](security.md)
 
